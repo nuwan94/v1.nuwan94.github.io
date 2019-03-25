@@ -1,3 +1,0 @@
-$(function() {
-	// To be added
-});

@@ -1,0 +1,57 @@
+* {
+    transition: .5s;
+    -webkit-transition: .5s;
+}
+
+html,
+body {
+    background: #141A32;
+    color: #eee;
+    font-family: "Oswald";
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h2.title span{
+    color: #007bff;
+}
+
+img.profile {
+    max-width: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px #222;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-links a:hover i {
+    color: unset;
+}
+
+.social-links i {
+    font-size: 2em;
+    color: #fff;
+}
+
+.menu {
+    border-bottom: 1px solid #007bff;
+}
+
+.table td{
+    border: none;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.table tr td:first-child{
+    text-align: right;
+}
+
+.table tr td:last-child{
+    text-align: left;
+}
