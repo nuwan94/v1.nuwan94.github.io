@@ -21,7 +21,11 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
   <script>
     new WOW({
-      mobile: false
+      boxClass: 'wow', 
+      animateClass: 'animated',
+      offset: 0, 
+      mobile: false,
+      live: true
     }).init();
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -46,7 +50,8 @@
         <a href='https://twitter.com/_nsa94' target="_blank"><i class='fa fa-twitter-square wow bounceIn'></i></a>
         <a href='https://linkedin.com/in/nsa94/' target="_blank"><i class='fa fa-linkedin-square wow bounceIn'></i></a>
         <a href='https://github.com/Nuwan94' target="_blank"><i class='fa fa-github wow bounceIn'></i></a>
-        <a href='https://stackoverflow.com/users/3125964/nuwan94' target="_blank"><i class='fa fa-stack-overflow wow bounceIn'></i></a>
+        <a href='https://stackoverflow.com/users/3125964/nuwan94' target="_blank"><i
+            class='fa fa-stack-overflow wow bounceIn'></i></a>
       </div>
     </div>
 
@@ -71,7 +76,7 @@
 
     <div class="row">
       <div class="col-md-8 mx-auto">
-        <div class="ng-view wow bounceIn" data-wow-delay="100ms"></div>
+        <div class="ng-view" data-wow-delay="100ms"></div>
       </div>
     </div>
 
