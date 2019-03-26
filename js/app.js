@@ -19,9 +19,25 @@ app.config(function ($routeProvider) {
 		});
 });
 
-app.controller('projectCtrl', function ($scope, $http) {
-	
-	$scope.getProjects= function (url) {
+app.filter('langConvert', function () {
+	return function (t) {
+		t = t.toLowerCase();
+		switch (t) {
+			case "html":
+				return "html5";
+			case "css":
+				return "css3";
+			case "c++":
+				return "cplusplus";
+			default:
+				return t;
+		}
+	}
+});
+
+app.controller('projectCtrl', function ($scope, $filter, $http) {
+
+	$scope.getProjects = function (url) {
 		$scope.isLoaded = true;
 		$http.get(url)
 			.then(function (response) {
@@ -30,13 +46,3 @@ app.controller('projectCtrl', function ($scope, $http) {
 			});
 	}
 });
-
-
-
-// app.controller('projectCtrl', function ($scope, $http) {
-// 	var url = "https://api.github.com/users/nuwan94/repos?page=1&per_page=100";
-
-// 	$http.get(url).success(function (data) {
-// 		$scope.projects = data;
-// 	});
-// });

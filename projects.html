@@ -1,23 +1,25 @@
 <div class="row">
     <h3 class="m-3 col-md-12">Projects</h3>
 </div>
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 <div class="row" ng-controller="projectCtrl">
         <div class="col-md-8 mx-auto mb-3">
-                <button type="button" class="btn btn-light" ng-click="getProjects('/config/apps.json')" >Apps</button>
-                <button type="button" class="btn btn-light" ng-click="getProjects('/config/web.json')" >Webs</button>
-                <button type="button" class="btn btn-light" ng-click="getProjects('/config/games.json')" >Games</button>
-                <button type="button" class="btn btn-light" ng-click="getProjects('/config/designs.json')" >Designs</button>
+                <button type="button" class="btn btn-light" ng-click="getProjects('config/apps.json')" >Apps</button>
+                <button type="button" class="btn btn-light" ng-click="getProjects('config/web.json')" >Webs</button>
+                <button type="button" class="btn btn-light" ng-click="getProjects('config/games.json')" >Games</button>
+                <button type="button" class="btn btn-light" ng-click="getProjects('config/designs.json')" >Designs</button>
                 <button type="button" class="btn btn-light" ng-click="getProjects('https://api.github.com/users/nuwan94/repos?page=1&per_page=100')" >OpenSource</button>
             </div>
     <div class="col-md-8 mx-auto" ng-if="isLoaded">
         <i class="fa fa-3x fa-spinner fa-pulse"></i>
     </div>
-    <div class="m-3 project text-left  col-md-8 mx-auto wow bounceIn" ng-repeat="pro in projects">
+    <div class="m-3 project text-left  col-md-10 mx-auto wow bounceIn" ng-repeat="pro in projects">
         <a class="float-left" ng-href="{{pro.html_url}}">
             <h3>{{pro.name}}</h3>
         </a>
-        <span class="badge float-right badge-success">{{pro.language}}</span>
+        <i class="devicon-{{ pro.language| langConvert }}-plain float-right" ></i>
+        <!-- <span class="badge float-right badge-success"></span> -->
         <p>{{pro.description}}</p>
     </div>
 </div>

@@ -1,7 +1,6 @@
 * {
     transition: .5s;
     -webkit-transition: .5s;
-    cursor: default;
 }
 
 html,
@@ -9,6 +8,7 @@ body {
     background: #141A32;
     color: #eee;
     font-family: "Oswald";
+    cursor: default;
 }
 
 a:hover{
@@ -46,6 +46,10 @@ img.profile {
 
 .project p{
     clear: both;
+}
+
+.project i[class^='devicon-']{
+    font-size: 2em;
 }
 
 .table td{
