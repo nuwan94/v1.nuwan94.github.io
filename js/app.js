@@ -20,12 +20,15 @@ app.config(function ($routeProvider) {
 });
 
 app.controller('projectCtrl', function ($scope, $http) {
-	$scope.isLoaded = true;
-	$http.get("https://api.github.com/users/nuwan94/repos?page=1&per_page=100")
-		.then(function (response) {
-			$scope.isLoaded = false;
-			$scope.projects = response.data;
-		});
+	
+	$scope.getProjects= function (url) {
+		$scope.isLoaded = true;
+		$http.get(url)
+			.then(function (response) {
+				$scope.isLoaded = false;
+				$scope.projects = response.data;
+			});
+	}
 });
 
 
