@@ -4,10 +4,10 @@
 
 <div class="row" ng-controller="projectCtrl">
         <div class="col-md-8 mx-auto mb-3">
-                <button type="button" class="btn btn-light" ng-click="getProjects('config/apps.json')" >Apps</button>
-                <button type="button" class="btn btn-light" ng-click="getProjects('config/web.json')" >Webs</button>
-                <button type="button" class="btn btn-light" ng-click="getProjects('config/games.json')" >Games</button>
-                <button type="button" class="btn btn-light" ng-click="getProjects('config/designs.json')" >Designs</button>
+                <button type="button" class="btn btn-light" ng-click="getProjects('/config/apps.json')" >Apps</button>
+                <button type="button" class="btn btn-light" ng-click="getProjects('/config/web.json')" >Webs</button>
+                <button type="button" class="btn btn-light" ng-click="getProjects('/config/games.json')" >Games</button>
+                <button type="button" class="btn btn-light" ng-click="getProjects('/config/designs.json')" >Designs</button>
                 <button type="button" class="btn btn-light" ng-click="getProjects('https://api.github.com/users/nuwan94/repos?page=1&per_page=100')" >OpenSource</button>
             </div>
     <div class="col-md-8 mx-auto" ng-if="isLoaded">
