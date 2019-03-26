@@ -1,6 +1,7 @@
 * {
     transition: .5s;
     -webkit-transition: .5s;
+    cursor: default;
 }
 
 html,
@@ -38,13 +39,17 @@ img.profile {
     color: #fff;
 }
 
-.menu {
-    border-bottom: 1px solid #007bff;
+.menu, .project {
+    border-bottom: 1px solid #007bff;  
+}
+
+.project p{
+    clear: both;
 }
 
 .table td{
     border: none;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: lighter;
 }
 
