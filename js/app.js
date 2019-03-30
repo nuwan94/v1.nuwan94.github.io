@@ -15,7 +15,7 @@ app.config(function ($routeProvider) {
 			templateUrl: "contact.html"
 		})
 		.otherwise({
-			template: "<h1>404</h1><p>Not Found</p>"
+			template: "<h1 class='mt-5'>404</h1><p>Not Found</p>"
 		});
 });
 
@@ -29,9 +29,20 @@ app.filter('langConvert', function () {
 				return "css3";
 			case "c++":
 				return "cplusplus";
+			case "c#":
+				return "csharp";
 			default:
 				return t;
 		}
+	}
+});
+
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+app.filter('utcToLocal', function(){
+	return function(d){
+		t = new Date(d)
+		return (months[t.getMonth()] + " " + t.getFullYear());
 	}
 });
 
@@ -45,4 +56,32 @@ app.controller('projectCtrl', function ($scope, $filter, $http) {
 				$scope.projects = response.data;
 			});
 	}
+
+});
+
+
+app.controller('profileCtrl', function ($scope, $filter, $http) {
+	$scope.soLoaded = false;
+	$scope.gitLoaded = false;
+
+	$scope.getStat = function(){
+		
+		$http.get("https://api.github.com/users/nuwan94")
+		.then(function(response){
+			if(response.data.public_repos){
+				$scope.gitLoaded = true;
+				$scope.github = response.data;
+			}
+		});
+
+		$http.get("https://api.stackexchange.com/2.2/users/3125964?order=desc&sort=reputation&site=stackoverflow").then(function(response){
+			if(response.data.items[0].reputation){
+				$scope.soLoaded = true;
+				$scope.stackoverflow = response.data.items[0];
+			}
+				
+		});
+		
+	}
+
 });

@@ -38,47 +38,57 @@
 <body class="" ng-app="myCV">
 
   <div class="container text-center">
-    <div class="row m-3">
-      <div class="col-md-4 mx-auto">
-        <h2 class="title wow bounceInDown">Hello, I'm <span id="js-rotating">Nuwan</span></h2>
+
+    <div class="row mt-2">
+      <div class="col-md-4">
+            <div class="row m-3">
+      <div class="col-md-12 mx-auto">
+        <h2 class="title wow bounceInDown" data-wow-delay="50ms">Hello, I'm <span id="js-rotating">Nuwan</span></h2>
         <img src="img/profile_img.jpg" alt="Nuwan's Photo" class="mt-2 profile wow bounceIn">
       </div>
     </div>
     <div class="row m-3">
-      <div class="col-md-6 mx-auto social-links wow bounceIn">
-        <a href='https://www.facebook.com/nsa94' target="_blank"><i class='fa fa-facebook-square wow bounceIn'></i></a>
-        <a href='https://twitter.com/_nsa94' target="_blank"><i class='fa fa-twitter-square wow bounceIn'></i></a>
-        <a href='https://linkedin.com/in/nsa94/' target="_blank"><i class='fa fa-linkedin-square wow bounceIn'></i></a>
-        <a href='https://github.com/Nuwan94' target="_blank"><i class='fa fa-github wow bounceIn'></i></a>
+      <div class="col-md-12 mx-auto social-links wow bounceIn" data-wow-delay="100ms">
+        <a href='https://www.facebook.com/nsa94' target="_blank"><i class='fa fa-facebook-square m-1 wow bounceIn'></i></a>
+        <a href='https://twitter.com/_nsa94' target="_blank"><i class='fa fa-twitter-square wow m-1 bounceIn'></i></a>
+        <a href='https://linkedin.com/in/nsa94/' target="_blank"><i class='fa fa-linkedin-square m-1 wow bounceIn'></i></a>
+        <a href='https://github.com/Nuwan94' target="_blank"><i class='fa fa-github m-1 wow bounceIn'></i></a>
         <a href='https://stackoverflow.com/users/3125964/nuwan94' target="_blank"><i
-            class='fa fa-stack-overflow wow bounceIn'></i></a>
+            class='fa fa-stack-overflow m-1 wow bounceIn'></i></a>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-6 mx-auto menu mb-3">
-        <ul class="nav justify-content-center wow bounceIn">
-          <li class="nav-item">
+      <div class="col-md-12 mx-auto menu mb-3">
+        <ul class="nav justify-content-center">
+          <li class="nav-item wow bounceIn" data-wow-delay="250ms">
             <a class="nav-link" href="#!">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item wow bounceIn" data-wow-delay="300ms">
             <a class="nav-link" href="#!resume">Resume</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item wow bounceIn" data-wow-delay="350ms">
             <a class="nav-link" href="#!projects">Projects</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item wow bounceIn" data-wow-delay="400ms">
             <a class="nav-link" href="#!contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <div class="ng-view wow fadeIn"></div>
+      </div>
+      <div class="col-md-8">
+        <div class="ng-view"></div>
       </div>
     </div>
+
+
+
+    <!-- <div class="row">
+      <div class="col-md-8 mx-auto">
+        
+      </div>
+    </div> -->
 
   </div>
 

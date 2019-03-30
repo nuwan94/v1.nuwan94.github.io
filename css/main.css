@@ -11,12 +11,12 @@ body {
     cursor: default;
 }
 
-a:hover{
+a:hover {
     cursor: pointer;
     text-decoration: none;
 }
 
-h2.title span{
+h2.title span {
     color: #007bff;
 }
 
@@ -26,9 +26,16 @@ img.profile {
     box-shadow: 0px 0px 5px #222;
 }
 
+@media (min-width: 768px) {
+    .nav-item {
+        display: block;
+        width: 100%;
+        background: #0f152d;
+        margin: .5em;
+    }
+}
 .social-links a {
     display: inline-block;
-    margin: 0 5px;
 }
 
 .social-links a:hover i {
@@ -40,28 +47,34 @@ img.profile {
     color: #fff;
 }
 
-.menu, .project {
-    border-bottom: 1px solid #007bff;  
+/* .menu, */
+.project {
+    border-bottom: 1px solid #007bff;
 }
 
-.project p{
+.project:hover{
+    background: #111;
+}
+
+.project p {
     clear: both;
 }
 
-.project i[class^='devicon-']{
+.project i[class^='devicon-'] {
     font-size: 2em;
 }
 
-.table td{
+.table td {
     border: none;
-    font-size: 1.1em;
+    font-size: 1.25em;
     font-weight: lighter;
+    text-align: left
 }
 
-.table tr td:first-child{
-    text-align: right;
+.table tr td:first-child {
+    /* text-align: right; */
 }
 
-.table tr td:last-child{
-    text-align: left;
+.table tr td:last-child {
+    /* text-align: left; */
 }

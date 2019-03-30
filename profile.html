@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" ng-init="getStat()" ng-controller="profileCtrl">
     <h3 class="m-3 col-md-12">Profile</h3>
     <div class="col-md-8 mx-auto">
         <table class="table">
@@ -8,7 +8,7 @@
             </tr>
             <tr>
                 <td>Mobile</td>
-                <td><a href="tel:+94717871494">+94 71 787 1494</a><br>
+                <td><a href="tel:+94717871494">+94 71 787 1494</a><br/>
                     <a href="tel:+94757871494">+94 75 787 1494</a>
                 </td>
             </tr>
@@ -19,6 +19,21 @@
             <tr>
                 <td>Address</td>
                 <td>Magalegoda, Veyangoda.</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Developer Stats</td>
+                <td ng-if="gitLoaded">
+                    <i class='fa fa-github fa-2x'></i><br>
+                    <span class="text-warning">{{github.public_repos}}</span> public repositories<br>
+                    <span class="text-warning">{{github.public_gists}}</span> public gists
+                </td>
+            </tr>
+            <tr>
+                <td ng-if="soLoaded">
+                    <i class='fa fa-stack-overflow fa-2x'></i><br>
+                    <span class="text-warning">{{stackoverflow.reputation}}</span> total reputation<br>
+                    Gained <span class="text-warning">{{stackoverflow.reputation_change_month}}</span> this month.
+                </td>
             </tr>
         </table>
     </div>
