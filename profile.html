@@ -20,19 +20,66 @@
                 <td>Address</td>
                 <td>Magalegoda, Veyangoda.</td>
             </tr>
-            <tr>
-                <td rowspan="5">Developer Stats</td>
+            <tr class="border-top">
                 <td ng-if="gitLoaded">
-                    <i class='fa fa-github fa-2x'></i><br>
-                    <span class="text-warning">{{github.public_repos}}</span> public repositories<br>
-                    <span class="text-warning">{{github.public_gists}}</span> public gists
+                    <i class='fab fa-github fa-2x'></i><br>
+                    <span class="text-warning">{{github.public_repos}}</span> public repos<br/>
+                    <span class="text-warning">{{github.public_gists}}</span> public gists<br/>
+                    Joined on <span class="text-warning">{{github.created_at | date}}</span><br/>
+
+                </td>
+                <td ng-if="soLoaded">
+                    <i class='fab fa-stack-overflow fa-2x'></i><br>
+                    <span class="text-warning">{{stackoverflow.reputation}}</span> total reps<br/>
+                    <span class="text-success">{{stackoverflow.reputation_change_month}}</span> this month &amp;
+                    <span class="text-success">{{stackoverflow.reputation_change_year}}</span> this year.<br/>
+                    Last online <span class="text-warning">{{stackoverflow.last_access_date | date : "h:mm:ss a on MM/dd"}}</span>.
                 </td>
             </tr>
-            <tr>
-                <td ng-if="soLoaded">
-                    <i class='fa fa-stack-overflow fa-2x'></i><br>
-                    <span class="text-warning">{{stackoverflow.reputation}}</span> total reputation<br>
-                    Gained <span class="text-warning">{{stackoverflow.reputation_change_month}}</span> this month.
+
+            <tr class="border-top">
+                <td colspan="2">
+                    <i class="fab fa-hackerrank fa-2x mb-2"></i> Hackerrank.com<br>
+                    <span class="text-success">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span> - Problem Solving<br> 
+                    <span class="text-success">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span> - Java<br>
+                    <span class="text-success">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span> - Python<br>
+                    <span class="text-success">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span> - SQL<br>
+                    <span class="text-success">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span> - Statistics<br>
                 </td>
             </tr>
         </table>
