@@ -4,27 +4,26 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <meta name="description"
     content="Nuwan Sameera Alawatta is a Software Engineering Undergraduate in University of Kelaniya.">
   <meta name="author" content="Nuwan Alawatta">
 
-  <title>Nuwan Alawatta</title>
+  <title>Nuwan Alawatta :: Software Developer :: Personal Website</title>
 
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:100,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link href="css/main.css" rel="stylesheet">
-
   <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
   <script>
     new WOW({
-      boxClass: 'wow', 
+      boxClass: 'wow',
       animateClass: 'animated',
-      offset: 0, 
+      offset: 0,
       mobile: false,
       live: true
     }).init();
@@ -32,6 +31,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    jQuery(document).ready(function () {
+      jQuery('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
   <script src="js/app.js"></script>
 
 </head>
@@ -42,46 +47,41 @@
 
     <div class="row mt-2">
       <div class="col-md-4">
-            <div class="row m-3">
-      <div class="col-md-12 mx-auto">
-        <h2 class="title wow bounceInDown" data-wow-delay="50ms">Hello, I'm <span id="js-rotating">Nuwan</span></h2>
-        <img src="img/profile_img.jpg" alt="Nuwan's Photo" class="mt-2 profile wow bounceIn">
-      </div>
-    </div>
-    <div class="row m-3">
-      <div class="col-md-12 mx-auto social-links wow bounceIn" data-wow-delay="100ms">
-        <!-- <a href='https://www.facebook.com/nsa94' target="_blank"><i class='fab fa-facebook-square m-1 wow bounceIn'></i></a>
-        <a href='https://twitter.com/_nsa94' target="_blank"><i class='fab fa-twitter-square wow m-1 bounceIn'></i></a> -->
-        <a href='https://linkedin.com/in/nsa94/' target="_blank"><i class='fab fa-linkedin m-1 wow bounceIn'></i></a>
-        <a href='https://github.com/Nuwan94' target="_blank"><i class='fab fa-github m-1 wow bounceIn'></i></a>
-        <a href='https://gitlab.com/Nuwan94' target="_blank"><i class='fab fa-gitlab m-1 wow bounceIn'></i></a>
-        <a href='https://stackoverflow.com/users/3125964/nuwan94' target="_blank"><i
-            class='fab fa-stack-overflow m-1 wow bounceIn'></i></a>
-        <a href="https://medium.com/@nsa94"  target="_blank"><i class="fab fa-medium m-1 wow bounceIn"></i></a>
-        <a href="https://www.hackerrank.com/nsa94"  target="_blank"><i class="fab fa-hackerrank m-1 wow bounceIn"></i></a>
-        <a href="https://www.codepen.com/nsa94"  target="_blank"><i class="fab fa-codepen m-1 wow bounceIn"></i></a>
-         
-      </div>
-    </div>
+        <div class="row m-3">
+          <div class="col-md-12 mx-auto">
+            <h2 class="title wow bounceInDown" data-wow-delay="50ms">Hello, I'm <span id="js-rotating">Nuwan</span></h2>
+            <img src="img/profile_img.jpg" alt="Nuwan's Photo" class="mt-2 profile wow bounceIn">
+          </div>
+        </div>
 
-    <div class="row">
-      <div class="col-md-12 mx-auto menu mb-3">
-        <ul class="nav justify-content-center">
-          <li class="nav-item wow bounceIn" data-wow-delay="250ms">
-            <a class="nav-link" href="#!">About</a>
-          </li>
-          <li class="nav-item wow bounceIn" data-wow-delay="300ms">
-            <a class="nav-link" href="#!resume">Resume</a>
-          </li>
-          <li class="nav-item wow bounceIn" data-wow-delay="350ms">
-            <a class="nav-link" href="#!projects">Projects</a>
-          </li>
-          <li class="nav-item wow bounceIn" data-wow-delay="400ms">
-            <a class="nav-link" href="#!contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+        <div class="row m-3">
+          <div class="col-md-12 mx-auto social-links wow bounceIn" data-wow-delay="100ms">
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 mx-auto menu mb-3">
+            <ul class="nav justify-content-center">
+              <li class="nav-item wow bounceIn" data-wow-delay="250ms">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item wow bounceIn d-none d-lg-block" data-wow-delay="300ms">
+                <a class="nav-link" href="#stats">Stats</a>
+              </li>
+              <li class="nav-item wow bounceIn" data-wow-delay="300ms">
+                <a class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item wow bounceIn" data-wow-delay="350ms">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item wow bounceIn" data-wow-delay="400ms">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="col-md-8">
         <div class="ng-view"></div>

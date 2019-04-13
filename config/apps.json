@@ -1,10 +1,11 @@
 [{
     "name" : "Vidya 2017",
-    "html_url" : "https://play.google.com/store/apps/details?id=uok.sesa.vidya&hl=en_US",
     "description" : "Android application will help you to find the stalls and their details, event timetable in the Vidya 2017 Sciecne Exhibition organized by Faculty of Science, University of Kelaniya.",
-    "language": "Android"
+    "language": "Android",
+    "link" : "https://play.google.com/store/apps/details?id=uok.sesa.vidya&hl=en_US"
 },{
     "name" : "SE Official",
+    "html_url":"https://github.com/Nuwan94/SEApp",
     "description" : "Software Engineering 2015/16 Batch Android Application",
     "language": "Android"
 }]

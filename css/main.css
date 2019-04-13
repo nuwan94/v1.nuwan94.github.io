@@ -7,8 +7,12 @@ html,
 body {
     background: #141A32;
     color: #eee;
-    font-family: "Oswald";
+    font-family: "Overpass";
     cursor: default;
+}
+
+.clear {
+    clear: both;
 }
 
 a:hover {
@@ -26,6 +30,10 @@ img.profile {
     box-shadow: 0px 0px 5px #222;
 }
 
+.text-grey {
+    color: #aaa;
+}
+
 @media (min-width: 768px) {
     .nav-item {
         display: block;
@@ -34,47 +42,99 @@ img.profile {
         margin: .5em;
     }
 }
+
+.nav-link {
+    padding: .5rem;
+}
+
 .social-links a {
     display: inline-block;
 }
 
 .social-links a:hover i {
-    color: unset;
-}
-
-.social-links i {
-    font-size: 2em;
     color: #fff;
 }
 
-/* .fa-linkedin{
-    color: #0077b5;
+.social-links i {
+    font-size: 1.5em;
+    width: 1.75em;
+    color: #fff;
+    padding: .25em;
+    border-radius: .25em;
 }
 
-.fa-github{
-    color:#333;
+.social-links .fa-facebook-f {
+    background: #3b5998;
 }
 
-.fa-hackerrank{
-    color: #25B658;
+.social-links .fa-twitter {
+    background: #1da1f2;
 }
 
-.fa-medium{
-    color: #00ab6c;
+.social-links .fa-linkedin {
+    background: #0077b5;
 }
 
-.fa-stack-overflow{
-    color:#f48024;
-} */
+.social-links .fa-github {
+    background: #333;
+}
 
-/* .menu, */
-.project {
+.social-links .fa-hackerrank {
+    background: #25B658;
+}
+
+.social-links .fa-medium {
+    background: #00ab6c;
+}
+
+.social-links .fa-stack-overflow {
+    background: #f48024;
+}
+
+.social-links .fa-gitlab {
+    background: #fca326;
+}
+
+.social-links .fa-codepen {
+    background: #111;
+}
+
+.social-links .fa-behance {
+    background: #1769ff;
+}
+
+.social-links .fa-deviantart {
+    background: #4dc47d;
+}
+
+.social-links .fa-free-code-camp {
+    background: #006400;
+}
+
+.social-links .fa-youtube {
+    background: #ff0000;
+}
+
+.social-links .fa-reddit {
+    background: #ff4500;
+}
+
+.social-links .fa-quora {
+    background: #a82400
+}
+
+.social-links .fa-dev {
+    background: #232222;
+}
+
+.project,
+.resume-item {
     border-bottom: 1px solid #007bff;
 }
 
-.project:hover{
+/* .project:hover {
     background: #111;
-}
+} */
 
 .project p {
     clear: both;
@@ -84,21 +144,33 @@ img.profile {
     font-size: 2em;
 }
 
-.table td {
+.about .table td {
     border: none;
+}
+
+.about .table.mainT td {
+    border: none;
+    font-weight: lighter;
+    text-align: left
+}
+
+.stat {
     font-size: 1.25em;
     font-weight: lighter;
     text-align: left
 }
 
-.table tr td:first-child {
-    /* text-align: right; */
+.contact-icon-link {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2em;
 }
 
-.table tr td:last-child {
-    /* text-align: left; */
-}
-
-.table .border-top{
-    border-top: 2px solid #fff;
+.contact-icon-link:hover {
+    color: #fff;
+    opacity: .5;
+    /* font-size: 3em;
+    line-height: 3em; */
 }

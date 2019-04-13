@@ -1,6 +1,6 @@
 [{
     "name" : "Breaking Codes 2019",
-    "homepage" : "https://nuwan.dev/Breaking-Codes/",
+    "link" : "https://nuwan.dev/Breaking-Codes/",
     "description" : "Breaking Codes is an online coding competition organized by Software Engineering Students' Association, University of Kelaniya.",
     "language": "Bootstrap"
 },{
@@ -10,13 +10,13 @@
 },{
     "name" : "SE GPA Calculator",
     "html_url": "https://github.com/Nuwan94/SE-GPA-Calculator",
-    "homepage" : "http://nuwan.dev/SE-GPA-Calculator/",
+    "link" : "http://nuwan.dev/SE-GPA-Calculator/",
     "description" : "Software Engineering GPA Calculator. Valid for 2015/16 batch onwards.",
     "language": "AngularJS"
 },{
     "name" : "RealHack 2018",
     "html_url": "https://github.com/Nuwan94/RealHackv2",
-    "homepage" : "https://www.realhack.info",
+    "link" : "https://www.realhack.info",
     "description" : "Official webiste of RealHack 2018 inter-university hackathon.",
     "language": "HTML5"
 }]

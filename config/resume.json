@@ -1,0 +1,123 @@
+[
+    {
+        "working": [
+            {
+                "head": "Fiverr International Inc.",
+                "subhead": "Freelancer",
+                "time": "2013 Sep - 2018 Jan",
+                "link": "https://fiverr.com",
+                "desc": "Worked as a freelance graphic & web designer for more than 4 years with maintaining 100% customer ratings and level 2 seller. Completed over 100 projects in variuos platforms including worpress, blogger, wix etc.",
+                "tags": [
+                    "Photoshop",
+                    "Illustrator",
+                    "HTML",
+                    "CSS",
+                    "PHP",
+                    "Javascript",
+                    "JQuery",
+                    "AJAX",
+                    "CPanel",
+                    "FTP"
+                ]
+            },
+            {
+                "head": "Clean Power Lanka",
+                "subhead": "Technical Officer",
+                "time": "2017 Aug - 2017 Dec",
+                "desc": "Supervising the whole installation process from requiremnt gathering to testing in installing a solar system.",
+                "tags": [
+                    "draw.io",
+                    "SolarEdge",
+                    "Wifi Configurations",
+                    "Testing"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "head": "University of Kelaniya, Sri Lanka.",
+                "subhead": "BSc. (Hons.) in Software Engineering",
+                "time": "2017 Mar- 2021 Mar",
+                "list": [
+                    "IEEE Student Branch University of Kelaniya",
+                    "Software Engineering Students' Association"
+                ],
+                "link": "https://science.kln.ac.lk"
+            },
+            {
+                "head": "Royal College, Colombo 07, Sri Lanka.",
+                "subhead": "Physical Sciene Stream",
+                "time": "2005 Feb - 2013 Aug",
+                "lsit": [
+                    "Buddhist Brotherhood",
+                    "Environmental & Conversation Society"
+                ],
+                "link": "https://royalcollege.lk"
+            }
+        ],
+        "communities": [
+            {
+                "head": "IEEE Sri Lanka Section",
+                "subhead": "Volunteer",
+                "time": "2018 Nov - Present",
+                "list": [
+                    "IEEE SLSYWC 2019 - Design Team",
+                    "IEEE Innovation Nation 2019 - Design Team",
+                    "IEEE Techno Meetups 2018 - Design Team"
+                ]
+            },
+            {
+                "head": "IEEE Student Branch University of Kelaniya",
+                "subhead": "Editor",
+                "time": "2018 Mar - 2019 Mar",
+                "list": [
+                    "Sessions conducted by the the Student Branch",
+                    "IEEE Sri Lanka Section activities"
+                ]
+            },
+            {
+                "head": "SESA - Software Engineering Students' Association",
+                "subhead": "Member",
+                "time": "2017 Mar - Present",
+                "list": [
+                    "RealHack 2018 Organizing Committee",
+                    "Breaking Codes 1.0 - Co-Founder"
+                ]
+            }
+        ],
+        "contest": [
+            {
+                "head": "Google Code Jam 2019",
+                "subhead": "Qulaification Round",
+                "time": "2019 Apr",
+                "list": [
+                    "Username : NSA94",
+                    "Qualified to Round A"
+                ],
+                "link":"https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705",
+                "cert_link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/CJ19-Qualification.pdf"
+            },{
+                "head": "Google Hash Code 2019",
+                "subhead": "Top 5000",
+                "time": "2019 Feb",
+                "list": [
+                    "Team Name : TeamOrigin",
+                    "World Rank : 3148"
+                ],
+                "link":"https://codingcompetitions.withgoogle.com/hashcode/archive/2019",
+                "cert_link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/HC19-Particiapate.pdf"
+            },{
+                "head": "IEEEXtreme 12.0",
+                "subhead": "Top 1500",
+                "time": "2018 Oct",
+                "list": [
+                    "Team Name : TeamOrigin",
+                    "World Rank : 1114", 
+                    "Country Rank : 88"
+                ],
+                "link":"https://ieeextreme.org/12-0-ranking/",
+                "cert_link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/Xtreme2018.pdf"
+            }
+        ]
+    }
+]
