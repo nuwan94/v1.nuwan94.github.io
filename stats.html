@@ -5,8 +5,8 @@
             <div class="col-md-12 m-5" ng-if="!(gitLoaded && soLoaded)">
                     <h5 style="text-align: center"><i class="fa fa-2x fa-spinner fa-pulse"></i></h5>
             </div>
-            <div class="col-md-6 wow bounceIn" ng-if="gitLoaded && soLoaded">
-                <i class='fab fa-github fa-2x'></i> GitHub<br>
+            <div class="col-md-6" ng-if="gitLoaded && soLoaded">
+                <i class='fab fa-github fa-2x wow bounceIn'></i> GitHub<br>
                 <span class="text-warning">{{gh.public_repos}}</span> public repos<br />
                 <span class="text-warning">{{gh.public_gists}}</span> public gists<br />
                 Joined on <span class="text-warning">{{gh.created_at | date}}</span><br />
@@ -14,8 +14,8 @@
                 <!-- <span class="text-warning">{{github.following}}</span> following<br /> -->
                 
             </div>
-            <div class="col-md-6 wow bounceIn" ng-if="gitLoaded && soLoaded">
-                <i class='fab fa-stack-overflow fa-2x'></i> Stackoverflow<br>
+            <div class="col-md-6" ng-if="gitLoaded && soLoaded">
+                <i class='fab fa-stack-overflow fa-2x wow bounceIn'></i> Stackoverflow<br>
                 <span class="text-warning">{{so.reputation}}</span> total reps<br />
                 <span class="text-success"><i class="fa fa-caret-up"></i>{{so.reputation_change_month}}</span> month &amp;
                 <span class="text-success"><i class="fa fa-caret-up"></i> {{so.reputation_change_year}}</span> year.<br />
@@ -28,8 +28,8 @@
             </div>
         </div>
         <div class="row mt-5 stat" ng-if="gitLoaded && soLoaded">
-            <div class="col-md-12 wow bounceIn">
-                <i class="fab fa-hackerrank fa-2x mb-2"></i> Hackerrank<br>
+            <div class="col-md-12 ">
+                <i class="fab fa-hackerrank fa-2x mb-2 wow bounceIn"></i> Hackerrank<br>
                 <span class="text-success">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>

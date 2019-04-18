@@ -2,6 +2,7 @@
     <h3 class="m-3 col-md-12">Projects</h3>
 </div>
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link href='https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 <!-- <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'> -->
 
 <div class="row" ng-controller="projectCtrl" ng-init="getProjects('config/apps.json')">
@@ -18,7 +19,8 @@
     <div class="p-3 project text-left wow fadeIn col-md-10 mx-auto" ng-repeat="pro in projects | orderBy: '-created_at'">
         <h3 class="float-left wow fadeInUp">{{pro.name}}</h3>
         
-        <i class="devicon-{{ pro.language| langConvert }}-plain float-right wow" data-wow-delay="100ms"></i>
+        <!-- <i class="devicon-{{ pro.language| langConvert }}-plain float-right wow" data-wow-delay="100ms"></i> -->
+        <div class="float-right wow" data-wow-delay="100ms" ng-if="pro.language"><i class="{{ pro.language| langConvert }}"></i></div>
         <p>{{pro.description}}</p>
         <span ng-if="pro.created_at" class="float-right text-muted">{{pro.created_at | utcToLocal }}</span>
         <a class="btn btn-primary m-1 mb-3 wow fadeIn"  data-wow-delay="200ms" ng-if="pro.html_url" ng-href="{{pro.html_url}}" target="_blank">SOURCE</a>

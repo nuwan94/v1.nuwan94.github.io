@@ -42,15 +42,67 @@
                     "IEEE Student Branch University of Kelaniya",
                     "Software Engineering Students' Association"
                 ],
-                "link": "https://science.kln.ac.lk"
+                "link": "https://science.kln.ac.lk",
+                "results": [
+                    {
+                        "title" : "Cumulative GPA 3.75 out of 4.00",
+                        "arr" :
+                        [
+                            ["Programming Concepts [C]", "A+"],
+                            ["Data Structures & Algorithms [C]", "A"],
+                            ["Object Oriented Programming [Java]" , "A+"],
+                            ["Database Design & Development [Oracle]", "A"],
+                            ["Requirement Engineering", "A-"],
+                            ["Software Modelling", "A"],
+                            ["Software Architecture & Design [Lagom,SpringBoot]", "A+"],
+                            ["Web Application Development [HTML,CSS,JS,PHP]", "A"],
+                            ["Interactive Application Development", "A+"],
+                            ["Computer Architecture & Operating Systems", "B+"],
+                            ["Mobile Application Development [Android]", "A"],
+                            ["Statistics", "B"]
+                         ]
+                    }
+                ]
             },
             {
                 "head": "Royal College, Colombo 07, Sri Lanka.",
                 "subhead": "Physical Sciene Stream",
                 "time": "2005 Feb - 2013 Aug",
-                "lsit": [
-                    "Buddhist Brotherhood",
-                    "Environmental & Conversation Society"
+                "results": [
+                    {
+                        "title" : "GCE Advanced Level Examination 2015 (3rd Attempt)",
+                        "arr" :
+                        [
+                            ["Z Score","1.7702"],
+                            ["Island Rank","1477"],
+                            ["District Rank" , "152"],
+                            ["Physics","A"],
+                            ["Chemistry","B"],
+                            ["Combined Maths","C"],
+                            ["General English (2014)","A"]
+                         ]
+                    },
+                    {
+                        "title" : "GCE Ordinary Level Examination 2010 (1st Attempt)",
+                        "arr" :
+                        [
+                            ["Mathematics","A"],
+                            ["Sciecne","A"],
+                            ["English(Language)","A"],
+                            ["Sinhala(Language)","A"],
+                            ["Buddhism(Religion)","A"],
+                            ["History","A"],
+                            ["Bussiness Studies & Accounting","B"],
+                            ["Drama & Theatre","B"],
+                            ["Design & Technology","A"]
+                        ]
+                    }
+                    
+                    
+                ],
+                "list": [
+                    "Societies : Buddhist Brotherhood & Environmental Conversation Society",
+                    "Sports : Chess"
                 ],
                 "link": "https://royalcollege.lk"
             }
@@ -68,10 +120,10 @@
             },
             {
                 "head": "IEEE Student Branch University of Kelaniya",
-                "subhead": "Editor",
-                "time": "2018 Mar - 2019 Mar",
+                "subhead": "Former Editor(2018) | Member",
+                "time": "2017 Mar - Present",
                 "list": [
-                    "Sessions conducted by the the Student Branch",
+                    "Sessions conducted by the the student branch",
                     "IEEE Sri Lanka Section activities"
                 ]
             },
@@ -81,42 +133,94 @@
                 "time": "2017 Mar - Present",
                 "list": [
                     "RealHack 2018 Organizing Committee",
-                    "Breaking Codes 1.0 - Co-Founder"
+                    "Breaking Codes 1.0, Co-Founder & Design Lead"
                 ]
             }
         ],
         "contest": [
             {
                 "head": "Google Code Jam 2019",
-                "subhead": "Qulaification Round",
+                "subhead": "Qualification Round",
                 "time": "2019 Apr",
                 "list": [
                     "Username : NSA94",
                     "Qualified to Round A"
                 ],
-                "link":"https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705",
-                "cert_link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/CJ19-Qualification.pdf"
-            },{
+                "link": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705",
+                "cert_link": "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/CJ19-Qualification.pdf",
+                "tags": [
+                    "python"
+                ]
+            },
+            {
                 "head": "Google Hash Code 2019",
-                "subhead": "Top 5000",
+                "subhead": "Qualification Round",
                 "time": "2019 Feb",
                 "list": [
                     "Team Name : TeamOrigin",
                     "World Rank : 3148"
                 ],
-                "link":"https://codingcompetitions.withgoogle.com/hashcode/archive/2019",
-                "cert_link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/HC19-Particiapate.pdf"
-            },{
+                "link": "https://codingcompetitions.withgoogle.com/hashcode/archive/2019",
+                "cert_link": "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/HC19-Particiapate.pdf",
+                "tags": [
+                    "python"
+                ]
+            },
+            {
+                "head": "99XT Code Conquest",
+                "subhead": "6th Place",
+                "time": "2019 Jan",
+                "list": [
+                    "Username : nsa94",
+                    "Rank : 6th in Time | 3rd in Points"
+                ],
+                "link": "https://www.hackerrank.com/contests/99xt-code-conquest/leaderboard",
+                "tags": [
+                    "python",
+                    "java"
+                ]
+            },
+            {
                 "head": "IEEEXtreme 12.0",
-                "subhead": "Top 1500",
+                "subhead": "24 Hour Coding Competition",
                 "time": "2018 Oct",
                 "list": [
                     "Team Name : TeamOrigin",
-                    "World Rank : 1114", 
+                    "World Rank : 1114",
                     "Country Rank : 88"
                 ],
-                "link":"https://ieeextreme.org/12-0-ranking/",
-                "cert_link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/Xtreme2018.pdf"
+                "link": "https://ieeextreme.org/12-0-ranking/",
+                "cert_link": "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/Xtreme2018.pdf",
+                "tags": [
+                    "python",
+                    "java"
+                ]
+            },{"head": "HackaDev 2018",
+                "subhead": "National Youth Social Innovation Challenge ",
+                "time": "2018 Sep",
+                "list": [
+                    "Team Name : TeamOrigin",
+                    "Idea : [Sponsored] Avoid Sexual Harassment in Public Transportation",
+                    "Selected for Western Province Top 20"
+                ],
+                "tags":["android","api","geolocation","gps","google-maps"]
+            },
+            {
+                "head": "Mobitel NB-IoT Hackathon",
+                "subhead": "Overnight Hackathon",
+                "time": "2018 Mar",
+                "list": [
+                    "Team Name : ESsenSE",
+                    "Idea : Smart Garbage Collecting System",
+                    "Selected for top 25 ideas"
+                ],
+                "link": "https://mic.lk/nbiot-forum-and-hackathon/",
+                "tags": [
+                    "banana-pi",
+                    "firebase",
+                    "google-maps",
+                    "android"
+                ]
             }
         ]
     }

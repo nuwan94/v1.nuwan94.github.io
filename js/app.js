@@ -19,25 +19,37 @@ app.config(function ($routeProvider, $locationProvider) {
 		})
 		.otherwise({
 			template: "<h1 class='mt-5'>404</h1><p>Not Found</p>"
-		})
+		});
 	$locationProvider.hashPrefix('');
 });
 
 app.filter('langConvert', function () {
 	return function (t) {
 		t = t.toLowerCase();
+		var l;
 		switch (t) {
+			case "assembly":
+				l = "devicons devicons-terminal";
+				break;
+			case "unity":
+				l = "devicons devicons-unity_small";
+				break;
 			case "html":
-				return "html5";
+				l = "devicon-html5-plain";
+				break;
 			case "css":
-				return "css3";
+				l = "devicon-css3-plain";
+				break;
 			case "c++":
-				return "cplusplus";
+				l = "devicon-cplusplus-plain";
+				break;
 			case "c#":
-				return "csharp";
+				l = "devicon-csharp-plain";
+				break;
 			default:
-				return t;
+				l = 'devicon-'+ t + '-plain';
 		}
+		return l;
 	}
 });
 

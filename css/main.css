@@ -144,6 +144,10 @@ img.profile {
     font-size: 2em;
 }
 
+.project i[class^="devicons"] {
+    font-size: 2.5em;
+}
+
 .about .table td {
     border: none;
 }
@@ -173,4 +177,8 @@ img.profile {
     opacity: .5;
     /* font-size: 3em;
     line-height: 3em; */
+}
+
+.resume .table td{
+    padding: .2em;
 }
