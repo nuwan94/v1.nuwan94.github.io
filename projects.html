@@ -1,32 +1,66 @@
 <div class="row">
     <h3 class="m-3 col-md-12">Projects</h3>
 </div>
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <link href='https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 <!-- <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'> -->
 
 <div class="row" ng-controller="projectCtrl" ng-init="getProjects('config/apps.json')">
-        <div class="col-md-8 mx-auto mb-3">
-                <button type="button" class="btn btn-light m-1 wow bounceIn" ng-click="getProjects('config/apps.json')" >Apps</button>
-                <button type="button" class="btn btn-light m-1 wow bounceIn" ng-click="getProjects('config/web.json')" >Webs</button>
-                <button type="button" class="btn btn-light m-1 wow bounceIn" ng-click="getProjects('config/games.json')" >Games</button>
-                <!-- <button type="button" class="btn btn-light m-1" ng-click="getProjects('config/designs.json')" >Designs</button> -->
-                <button type="button" class="btn btn-light m-1 wow bounceIn" ng-click="getProjects('https://api.github.com/users/nuwan94/repos?page=1&per_page=100')" >OpenSource</button>
-            </div>
+
+    <div class="col-md-12 mx-auto sticky-nav">
+        <button type="button" class="btn btn-sm btn-light m-1 wow bounceIn"
+            ng-click="getProjects('config/apps.json')">Apps</button>
+        <button type="button" class="btn btn-sm btn-light m-1 wow bounceIn"
+            ng-click="getProjects('config/web.json')">Webs</button>
+        <button type="button" class="btn btn-sm btn-light m-1 wow bounceIn"
+            ng-click="getProjects('config/games.json')">Games</button>
+        <!-- <button type="button" class="btn btn-light m-1" ng-click="getProjects('config/designs.json')" >Designs</button> -->
+        <button type="button" class="btn btn-sm btn-light m-1 wow bounceIn"
+            ng-click="getProjects('https://api.github.com/users/nuwan94/repos?page=1&per_page=100')">OpenSource</button>
+    </div>
+
     <div class="col-md-8 mx-auto" ng-if="isNotLoaded">
         <i class="fa fa-3x fa-spinner fa-pulse"></i>
     </div>
-    <div class="p-3 project text-left wow fadeIn col-md-10 mx-auto" ng-repeat="pro in projects | orderBy: '-created_at'">
-        <h3 class="float-left wow fadeInUp">{{pro.name}}</h3>
-        
-        <!-- <i class="devicon-{{ pro.language| langConvert }}-plain float-right wow" data-wow-delay="100ms"></i> -->
-        <div class="float-right wow" data-wow-delay="100ms" ng-if="pro.language"><i class="{{ pro.language| langConvert }}"></i></div>
-        <p>{{pro.description}}</p>
+
+    <div class="p-3 project text-left wow fadeIn col-md-10 mx-auto"
+        ng-repeat="pro in projects | orderBy: '-created_at'">
+
+        <h3 class="float-left wow fadeInUp">
+            <i ng-if="pro.fork" class="fa fa-code-branch text-info"></i> {{pro.name}}
+        </h3>
+
+        <div class="float-right wow" data-wow-delay="100ms" ng-if="pro.language">
+            <i class="{{ pro.language| langConvert }}"></i>
+        </div>
+
+        <p>
+            {{pro.description}}
+        </p>
+
         <span ng-if="pro.created_at" class="float-right text-muted">{{pro.created_at | utcToLocal }}</span>
-        <a class="btn btn-primary m-1 mb-3 wow fadeIn"  data-wow-delay="200ms" ng-if="pro.html_url" ng-href="{{pro.html_url}}" target="_blank">SOURCE</a>
-        <a class="btn btn-success m-1 mb-3 wow fadeIn"  data-wow-delay="300ms" ng-if="pro.homepage" ng-href="{{pro.homepage}}" target="_blank">DEMO</a>
-        <a class="btn btn-warning m-1 mb-3 wow fadeIn"  data-wow-delay="300ms" ng-if="pro.link" ng-href="{{pro.link}}" target="_blank">LINK</a>
-        
-        
+
+        <a class="btn btn-sm btn-dark m-1 mb-3 wow fadeIn" data-wow-delay="300ms" ng-if="pro.stargazers_count >= 0"
+            ng-href="{{pro.html_url}}/stargazers" target="_blank">
+            <i class="fa fa-star"></i> STAR
+            <span ng-if="pro.stargazers_count >= 0" class="badge" ng-class=" pro.stargazers_count > 0 ? 'badge-success': 'badge-dark'">{{pro.stargazers_count}}</span>
+        </a>
+
+        <a class="btn btn-sm btn-dark m-1 mb-3 wow fadeIn" data-wow-delay="300ms" ng-if="pro.forks_count >= 0"
+            ng-href="{{pro.html_url}}/network/members" target="_blank">
+            <i class="fa fa-code-branch"></i> FORK
+            <span ng-if="pro.forks_count >= 0" class="badge" ng-class=" pro.forks_count > 0 ? 'badge-success': 'badge-dark'">{{pro.forks_count}}</span>
+        </a>
+
+        <a class="btn btn-sm btn-primary m-1 mb-3 wow fadeIn" data-wow-delay="200ms" ng-if="pro.html_url"
+            ng-href="{{pro.html_url}}" target="_blank">SOURCE</a>
+
+        <a class="btn btn-sm btn-success m-1 mb-3 wow fadeIn" data-wow-delay="300ms" ng-if="pro.homepage"
+            ng-href="{{pro.homepage}}" target="_blank">DEMO</a>
+
+        <a class="btn btn-sm btn-warning m-1 mb-3 wow fadeIn" data-wow-delay="300ms" ng-if="pro.link" ng-href="{{pro.link}}"
+            target="_blank">LINK</a>
+
     </div>
 </div>

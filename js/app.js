@@ -108,6 +108,11 @@ app.controller('resumeCtrl', function ($scope, $filter, $http) {
 		$scope.resu.title = "Contests & Hackathons";
 	}
 
+	$scope.showSkill = function () {
+		$scope.resu = $scope.resume.skills;
+		$scope.resu.title = "SkillS";
+	}
+
 });
 
 

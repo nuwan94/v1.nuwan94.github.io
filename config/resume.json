@@ -33,6 +33,77 @@
                 ]
             }
         ],
+        "skills" : [
+            {
+                "head" : "Java Technologies",
+                "theme" : "bg-danger",
+                "tech" : [
+                    {"name" : "JavaSE", "val":"80"},
+                    {"name" : "Hibernate", "val":"50"},
+                    {"name" : "Spring Boot", "val":"40"},
+                    {"name" : "Spring MVC", "val":"25"},
+                    {"name" : "Lagom", "val":"20"}
+                ]
+            },{
+                "head" : "Web Technologies",
+                "theme" : "bg-primary",
+                "tech" : [
+                    {"name" : "HTML/HTML5", "val":"90"},
+                    {"name" : "CSS/Bootstrap/Materialize", "val":"90"},
+                    {"name" : "JavaScript/JSON", "val":"65"},
+                    {"name" : "jQuery/Ajax", "val":"60"},
+                    {"name" : "PHP", "val":"70"},
+                    {"name" : "Laravel", "val":"50"},
+                    {"name" : "Typescript", "val":"55"},
+                    {"name" : "Angular", "val":"60"},
+                    {"name" : "React", "val":"40"},
+                    {"name" : "Gatsby", "val":"50"},
+                    {"name" : "Node.js", "val":"50"},
+                    {"name" : "Express", "val":"50"}
+                    
+                    
+                ]
+            },{
+                "head" : "Mobile Technologies",
+                "theme" : "bg-success",
+                "tech" : [
+                    {"name" : "Android", "val":"65"},
+                    {"name" : "Flutter", "val":"30"},
+                    {"name" : "React Native", "val":"35"}
+                ]
+            },{
+                "head" : "Game Technologies",
+                "theme" : "bg-dark",
+                "tech" : [
+                    {"name" : "Unity Game Engine", "val":"60"},
+                    {"name" : "Blender", "val":"50"}
+                ]
+            },{
+                "head" : "Version Controlling",
+                "theme" : "bg-info",
+                "tech" : [
+                    {"name" : "Git", "val":"80"},
+                    {"name" : "GitHub", "val":"75"}
+                ]
+            },{
+                "head" : "Cloud Platforms",
+                "theme" : "bg-secondary",
+                "tech" : [
+                    {"name" : "Firebase", "val":"75"},
+                    {"name" : "Netlify", "val":"50"},
+                    {"name" : "Heroku", "val":"25"},
+                    {"name" : "Azure", "val":"15"},
+                    {"name" : "AWS", "val":"35"},
+                    {"name" : "Google Cloud Platform", "val":"25"}
+                ]
+            },{
+                "head" : "CI/CD",
+                "theme" : "bg-danger",
+                "tech" : [
+                    {"name" : "Travis CI", "val":"50"}
+                ]
+            }
+        ],
         "education": [
             {
                 "head": "University of Kelaniya, Sri Lanka.",
@@ -54,17 +125,17 @@
                             ["Database Design & Development [Oracle]", "A"],
                             ["Requirement Engineering", "A-"],
                             ["Software Modelling", "A"],
-                            ["Software Architecture & Design [Lagom,SpringBoot]", "A+"],
+                            ["Software Constructions", "A"],
+                            ["Software Architecture & Design [Lagom,NiFi]", "A+"],
                             ["Web Application Development [HTML,CSS,JS,PHP]", "A"],
                             ["Interactive Application Development", "A+"],
-                            ["Computer Architecture & Operating Systems", "B+"],
+                            ["Computer Architecture & Operating Systems [MIPS]", "B+"],
                             ["Mobile Application Development [Android]", "A"],
                             ["Statistics", "B"]
                          ]
                     }
                 ]
-            },
-            {
+            },{
                 "head": "Royal College, Colombo 07, Sri Lanka.",
                 "subhead": "Physical Sciene Stream",
                 "time": "2005 Feb - 2013 Aug",
@@ -86,25 +157,46 @@
                         "title" : "GCE Ordinary Level Examination 2010 (1st Attempt)",
                         "arr" :
                         [
-                            ["Mathematics","A"],
-                            ["Sciecne","A"],
-                            ["English(Language)","A"],
-                            ["Sinhala(Language)","A"],
-                            ["Buddhism(Religion)","A"],
-                            ["History","A"],
-                            ["Bussiness Studies & Accounting","B"],
-                            ["Drama & Theatre","B"],
-                            ["Design & Technology","A"]
+                            ["Mathematics", "A"],
+                            ["Sciecne", "A"],
+                            ["English (Language)", "A"],
+                            ["Sinhala (Language)", "A"],
+                            ["Buddhism (Religion)", "A"],
+                            ["History", "A"],
+                            ["Bussiness Studies & Accounting", "B"],
+                            ["Drama & Theatre", "B"],
+                            ["Design & Technology", "A"]
                         ]
                     }
                     
                     
                 ],
                 "list": [
-                    "Societies : Buddhist Brotherhood & Environmental Conversation Society",
+                    "Societies : Buddhist Brotherhood, Environmental Conversation Society",
                     "Sports : Chess"
                 ],
                 "link": "https://royalcollege.lk"
+            },
+            {
+                "head": "SoloLearn",
+                "subhead": "Level 13",
+                "time" : "2017 Jan - 2019 Jan",
+                "link" : "https://www.sololearn.com/Profile/3255117",
+                "list" : [
+                    "Java Tutorial",
+                    "CSS Fundamentals",
+                    "PHP Tutorial",
+                    "SQL Fundamentals",
+                    "C++ Tutorial",
+                    "HTML Fundamentals",
+                    "JavaScript Tutorial",
+                    "jQuery Tutorial",
+                    "C# Tutorial",
+                    "Python 3 Tutorial",
+                    "Ruby Tutorial",
+                    "Swift 4 Fundamentals",
+                    "C Tutorial"
+                ]
             }
         ],
         "communities": [
@@ -116,7 +208,14 @@
                     "IEEE SLSYWC 2019 - Design Team",
                     "IEEE Innovation Nation 2019 - Design Team",
                     "IEEE Techno Meetups 2018 - Design Team"
-                ]
+                ],
+                "link" : "https://technomeetup.ieee.lk/team/"
+            },
+            {
+                "head": "Global Geek Sustainable Learning Kingdom",
+                "subhead": "Volunteer",
+                "time": "2019 Mar - Present",
+                "link" : "https://ggslk.com"
             },
             {
                 "head": "IEEE Student Branch University of Kelaniya",
@@ -125,7 +224,8 @@
                 "list": [
                     "Sessions conducted by the the student branch",
                     "IEEE Sri Lanka Section activities"
-                ]
+                ],
+                "link" : "https://www.facebook.com/ieeekln/photos/a.551077748414330/732651653590271"
             },
             {
                 "head": "SESA - Software Engineering Students' Association",
@@ -201,7 +301,7 @@
                 "list": [
                     "Team Name : TeamOrigin",
                     "Idea : [Sponsored] Avoid Sexual Harassment in Public Transportation",
-                    "Selected for Western Province Top 20"
+                    "Selected for Western Province Round"
                 ],
                 "tags":["android","api","geolocation","gps","google-maps"]
             },
@@ -214,7 +314,7 @@
                     "Idea : Smart Garbage Collecting System",
                     "Selected for top 25 ideas"
                 ],
-                "link": "https://mic.lk/nbiot-forum-and-hackathon/",
+                "link": "https://www.facebook.com/mobitelinnovationcentre/photos/a.2476533875906021/2477809589111783/",
                 "tags": [
                     "banana-pi",
                     "firebase",
