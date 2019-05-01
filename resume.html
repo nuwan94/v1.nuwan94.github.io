@@ -13,8 +13,6 @@
     </div>
 
     <div class="col-md-12 text-left" ng-if="!isNotLoaded">
-        <!-- <iframe src="https://docs.google.com/gview?url=https://nuwan94.github.io/cv/CV_Nuwan Alawatta.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe> -->
-        
 
         <h3 class="mt-5 mb-5 text-center">{{resu.title}}</h3>
 
@@ -55,9 +53,9 @@
                     {{t}}
                 </span>
             </p>
-            
-            <a class="btn btn-sm btn-primary mb-3" target="_blank" ng-if="r.cert_link" href="{{r.cert_link}}">
-                View Certificate
+
+            <a class="btn btn-sm btn-primary mb-3 mr-1" target="_blank" ng-repeat="c in r.cert_link" ng-if="r.cert_link" href="{{c.link}}">
+                {{c.text}}
             </a>
 
             <div class="row mb-3">
@@ -70,7 +68,6 @@
             </div>
             </div>
             
-
         </div>
 
     </div>

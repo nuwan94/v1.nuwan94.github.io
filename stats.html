@@ -1,35 +1,41 @@
 <div class="row" ng-init="getStat()" ng-controller="statCtrl">
     <h3 class="m-3 col-md-12">Statistics</h3>
     <div class="col-md-8 mx-auto">
-        <div class="row stat mt-3">
+        <div class="row mt-3 stat social-links">
+
             <div class="col-md-12 m-5" ng-if="!(gitLoaded && soLoaded)">
-                    <h5 style="text-align: center"><i class="fa fa-2x fa-spinner fa-pulse"></i></h5>
+                <h5 style="text-align: center"><i class="fa fa-2x fa-spinner fa-pulse"></i></h5>
             </div>
+
             <div class="col-md-6" ng-if="gitLoaded && soLoaded">
-                <i class='fab fa-github fa-2x wow bounceIn'></i> GitHub<br>
-                <span class="text-warning">{{gh.public_repos}}</span> public repos<br />
-                <span class="text-warning">{{gh.public_gists}}</span> public gists<br />
-                Joined on <span class="text-warning">{{gh.created_at | date}}</span><br />
-                <span class="text-warning">{{gh.followers}}</span> followers<br />
-                <!-- <span class="text-warning">{{github.following}}</span> following<br /> -->
-                
+                <a href='https://github.com/nuwan94' target="_blank">
+                    <i class='fab fa-github fa-2x wow bounceIn'></i> GitHub
+                </a><br>
+                <span class="text-warning">{{gh.public_repos}}</span> public repos<br>
+                <span class="text-warning">{{gh.public_gists}}</span> public gists<br>
+                Joined on <span class="text-warning">{{gh.created_at | date}}</span><br>
+                <span class="text-warning">{{gh.followers}}</span> followers<br>
             </div>
+
             <div class="col-md-6" ng-if="gitLoaded && soLoaded">
-                <i class='fab fa-stack-overflow fa-2x wow bounceIn'></i> Stackoverflow<br>
-                <span class="text-warning">{{so.reputation}}</span> total reps<br />
-                <span class="text-success"><i class="fa fa-caret-up"></i>{{so.reputation_change_month}}</span> month &amp;
-                <span class="text-success"><i class="fa fa-caret-up"></i> {{so.reputation_change_year}}</span> year.<br />
+                <a href='https://stackoverflow.com/users/3125964/nuwan94' target="_blank">
+                    <i class='fab fa-stack-overflow fa-2x wow bounceIn'></i> Stackoverflow
+                </a><br>
+                <span class="text-warning">{{so.reputation}}</span> total reps<br>
+                <span class="text-success"><i class="fa fa-caret-up"></i>{{so.reputation_change_month}}</span> month
+                &amp;
+                <span class="text-success"><i class="fa fa-caret-up"></i> {{so.reputation_change_year}}</span> year.<br>
                 Joined on <span class="text-warning">{{so.creation_date*1000 | date}}</span><br>
                 <span class="badge badge-primary">
-                {{so.badge_counts.bronze}} Bronze</span>
+                    {{so.badge_counts.bronze}} Bronze</span>
                 <span class="badge badge-primary"">{{so.badge_counts.silver}} Silver</span>
-                <!-- <span class="badge badge-primary">{{stackoverflow.badge_counts.gold}} Gold</span> -->
-
+                <!-- <span class=" badge badge-primary">{{stackoverflow.badge_counts.gold}} Gold</span> -->
             </div>
-        </div>
-        <div class="row mt-5 stat" ng-if="gitLoaded && soLoaded">
-            <div class="col-md-12 ">
-                <i class="fab fa-hackerrank fa-2x mb-2 wow bounceIn"></i> Hackerrank<br>
+
+            <div class="col-md-12" ng-if="gitLoaded && soLoaded">
+                <a href='https://www.hackerrank.com/nsa94' target="_blank">
+                    <i class="fab fa-hackerrank fa-2x mb-2 wow bounceIn"></i> Hackerrank
+                </a><br>
                 <span class="text-success">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>

@@ -1,11 +1,11 @@
 [{
     "name" : "Ceylon Fighters",
-    "description" : "Augmented Reality based figting game for mobiles.",
+    "description" : "Augmented Reality based fighting game for android mobiles.",
     "language": "unity",
     "created_at": "2019/03/01"
 },{
     "name" : "Praimfaya",
-    "description" : "Open world First Person Shooter game with some battle royale gaming features.",
+    "description" : "Open world First Person Shooter(FPS) game with some battle royale gaming features.",
     "language": "unity",
     "created_at": "2019/04/01"
 }]

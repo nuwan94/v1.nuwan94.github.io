@@ -79,7 +79,7 @@ img.profile {
     color: #fff;
 }
 
-.social-links i {
+.social-links a i {
     font-size: 1.5em;
     width: 1.75em;
     color: #fff;
@@ -183,9 +183,13 @@ img.profile {
 }
 
 .stat {
-    font-size: 1.25em;
+    font-size: 1.15em;
     font-weight: lighter;
     text-align: left
+}
+
+.stat .col-md-6, .stat .col-md-12{
+    padding: 1em;
 }
 
 .contact-icon-link {
@@ -206,3 +210,28 @@ img.profile {
 .resume .table td {
     padding: .2em;
 }
+
+.floating-btn{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 100%;
+    background: #24449b;
+    padding: .5em;
+}
+
+.stat.social-links i.fab{
+    font-size: 1.5em;
+    width: 1.75em;
+    color: #fff;
+    padding: .25em;
+    border-radius: .25em;
+    margin: .25em 0;
+    text-align: center;
+}
+

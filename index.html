@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link href="css/main.css" rel="stylesheet">
   <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script>
     new WOW({
       boxClass: 'wow',
@@ -30,11 +32,14 @@
       mobile: false,
       live: true
     }).init();
+    jQuery(function () {
+      jQuery('[data-toggle="tooltip"]').tooltip()
+    })
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
   <script src="js/app.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135973685-2"></script>
@@ -69,18 +74,13 @@
             </div>
           </div>
 
-          <!-- <div class="row m-3">
-          <div class="col-md-12 mx-auto social-links wow bounceIn" data-wow-delay="100ms">
-          </div>
-        </div> -->
-
           <div class="row">
             <div class="col-md-12 mx-auto menu mb-3">
               <ul class="nav justify-content-center">
                 <li class="nav-item wow bounceIn" data-wow-delay="250ms">
                   <a class="nav-link" href="#">About</a>
                 </li>
-                <li class="nav-item wow bounceIn" data-wow-delay="300ms">
+                <li class="nav-item wow bounceIn d-none d-lg-block" data-wow-delay="300ms">
                   <a class="nav-link" href="#stats">Stats</a>
                 </li>
                 <li class="nav-item wow bounceIn" data-wow-delay="300ms">
@@ -109,6 +109,15 @@
 
     </div>
   </div>
+
+  <a href="https://docs.google.com/gview?url=https://nuwan94.github.io/cv/CV_NuwanAlawatta.pdf"
+    target="_blank">
+    <div class="floating-btn d-none d-md-block wow tada inifinite" data-toggle="tooltip" data-placement="left"
+      title="Download Resume">
+      <i class="fa fa-download text-white"></i>
+    </div>
+  </a>
+
 
 </body>
 
