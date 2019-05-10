@@ -28,6 +28,8 @@
                 <span class="text-warning small">({{r.time}})</span>
             </h6>
 
+            <p ng-if="r.desc" class="text-justify text-grey clear">{{r.desc}}</p>
+
             <p ng-if="r.list">
                 <ul>
                     <li class="text-grey" ng-repeat="l in r.list">{{l}}</li>
@@ -45,8 +47,6 @@
                     </td>
                 </tr>
             </table>
-
-            <p ng-if="r.desc" class="text-justify text-grey clear">{{r.desc}}</p>
 
             <p ng-if="r.tags">
                 <span class="badge badge-dark mr-1" data-wow-delay="300ms" ng-repeat="t in r.tags">

@@ -49,32 +49,33 @@
                 "theme" : "bg-primary",
                 "tech" : [
                     {"name" : "HTML/HTML5", "val":"90"},
-                    {"name" : "CSS/Bootstrap/Materialize", "val":"90"},
-                    {"name" : "JavaScript/JSON", "val":"65"},
+                    {"name" : "CSS/Sass", "val":"90"},
+                    {"name" : "Bootstrap", "val":"75"},
+                    {"name" : "Materialize", "val":"80"},
+                    {"name" : "JavaScript/JSON", "val":"60"},
                     {"name" : "jQuery/Ajax", "val":"60"},
-                    {"name" : "PHP", "val":"70"},
-                    {"name" : "Laravel", "val":"50"},
-                    {"name" : "Typescript", "val":"55"},
-                    {"name" : "Angular", "val":"60"},
-                    {"name" : "React", "val":"40"},
-                    {"name" : "Gatsby", "val":"40"},
-                    {"name" : "Node.js", "val":"60"},
-                    {"name" : "Express", "val":"60"},
-                    {"name" : "REST API", "val":"75"}
+                    {"name" : "PHP", "val":"60"},
+                    {"name" : "Laravel", "val":"30"},
+                    {"name" : "Typescript", "val":"50"},
+                    {"name" : "Angular", "val":"50"},
+                    {"name" : "React", "val":"30"},
+                    {"name" : "Gatsby", "val":"30"},
+                    {"name" : "Node.js", "val":"50"},
+                    {"name" : "Express", "val":"50"},
+                    {"name" : "REST API", "val":"65"}
                 ]
             },{
                 "head" : "Mobile Development",
                 "theme" : "bg-success",
                 "tech" : [
-                    {"name" : "Android", "val":"65"},
-                    {"name" : "Flutter", "val":"30"},
-                    {"name" : "React Native", "val":"35"}
+                    {"name" : "Android", "val":"60"},
+                    {"name" : "Flutter", "val":"25"},
+                    {"name" : "React Native", "val":"25"}
                 ]
             },{
                 "head" : "Database Management",
                 "theme" : "bg-danger",
                 "tech" : [
-                    {"name" : "MS SQL Server", "val":"50"},
                     {"name" : "MySQL", "val":"75"},
                     {"name" : "SQLite", "val":"75"},
                     {"name" : "MongoDB", "val":"50"},
@@ -106,12 +107,6 @@
                     {"name" : "Google Cloud Platform", "val":"20"}
                 ]
             },{
-                "head" : "CI/CD",
-                "theme" : "bg-danger",
-                "tech" : [
-                    {"name" : "Travis CI", "val":"40"}
-                ]
-            },{
                 "head" : "Design and Utility",
                 "theme" : "bg-success",
                 "tech" : [
@@ -127,10 +122,10 @@
                 "theme" : "bg-info",
                 "tech" : [
                     {"name" : "IntelliJ IDEA", "val":"75"},
-                    {"name" : "NetBeans", "val":"55"},
                     {"name" : "VS Code", "val":"85"},
-                    {"name" : "Visual Studio 2017", "val":"65"},
-                    {"name" : "Android Studio", "val":"80"}
+                    {"name" : "Android Studio", "val":"80"},
+                    {"name" : "NetBeans", "val":"55"},
+                    {"name" : "Visual Studio 2017", "val":"65"}
                 ]
             }
         ],
@@ -144,6 +139,7 @@
                     "Software Engineering Students' Association"
                 ],
                 "link": "https://science.kln.ac.lk",
+                "desc": "Bachelor of Science Honors in Software Engineering degree which is the only degree program in software engineering offered in the state university system in Sri Lanka. It offers core and optional course modules leveraging aspects of computer science, engineering and management. Through industrial training programs as well as student centered activities, students are facilitated with experiential learning opportunities to successfully meet growing trends and demands in the national economy.",
                 "results": [
                     {
                         "title" : "Cumulative GPA 3.75 out of 4.00",
@@ -169,6 +165,7 @@
                 "head": "Royal College, Colombo 07, Sri Lanka.",
                 "subhead": "Physical Science Stream",
                 "time": "2005 Feb - 2013 Aug",
+                "desc": "Royal College, established in 1835, is Sri Lanka's oldest college and is widely known as the premier educational institution in the island.",
                 "results": [
                     {
                         "title" : "GCE Advanced Level Examination 2015 (3rd Attempt)",
@@ -176,7 +173,7 @@
                         [
                             ["Z Score","1.7702"],
                             ["Island Rank","1477"],
-                            ["District Rank" , "152"],
+                            ["District Rank (Gampaha)" , "152"],
                             ["Physics","A"],
                             ["Chemistry","B"],
                             ["Combined Mathematics","C"],
@@ -275,10 +272,6 @@
                 "link": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705",
                 "cert_link": 
                 [
-                    {
-                        "text" : "Round 1C",
-                        "link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/CJ19-Round1C.pdf"
-                    },
                     {
                         "text" : "Qualification",
                         "link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/CJ19-Qualification.pdf"
