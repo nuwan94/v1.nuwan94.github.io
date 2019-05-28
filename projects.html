@@ -1,24 +1,24 @@
-<div class="row">
-    <h3 class="m-3 col-md-12">Projects</h3>
-</div>
 <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <link href='https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 <!-- <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'> -->
 
-<div class="row" ng-controller="projectCtrl" ng-init="getProjects('config/apps.json')">
+<div class="row" ng-controller="projectCtrl" ng-init="getApps()">
 
     <div class="col-md-12 mx-auto sticky-nav">
         <button type="button" class="btn btn-sm btn-light m-1 wow bounceIn"
-            ng-click="getProjects('config/apps.json')">Apps</button>
+            ng-click="getApps()">Apps</button>
         <button type="button" class="btn btn-sm btn-light m-1 wow bounceIn"
-            ng-click="getProjects('config/web.json')">Webs</button>
+            ng-click="getWebs()">Webs</button>
         <button type="button" class="btn btn-sm btn-light m-1 wow bounceIn"
-            ng-click="getProjects('config/games.json')">Games</button>
+            ng-click="getGames()">Games</button>
         <!-- <button type="button" class="btn btn-light m-1" ng-click="getProjects('config/designs.json')" >Designs</button> -->
         <button type="button" class="btn btn-sm btn-light m-1 wow bounceIn"
-            ng-click="getProjects('https://api.github.com/users/nuwan94/repos?page=1&per_page=100')">OpenSource</button>
+            ng-click="getOpenSource()">OpenSource</button>
     </div>
+
+
+    <h3 class="m-3 col-md-12 wow fadeInUp">{{projects.title}}</h3>
 
     <div class="col-md-8 mx-auto" ng-if="isNotLoaded">
         <i class="fa fa-3x fa-spinner fa-pulse"></i>

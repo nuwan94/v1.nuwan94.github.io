@@ -1,0 +1,126 @@
+[
+    {
+        "head": "Google Kick Start 2019",
+        "subhead": "Round B",
+        "time": "2019 Apr",
+        "list": [
+            "Username : NSA94",
+            "World Rank : 2110"
+        ],
+        "link": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050eda",
+        "cert_link": [
+            {
+                "text" : "Round B",
+                "link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/KS19-RoundB.pdf"}
+            ],
+        "tags": [
+            "python"
+        ]
+    },{
+        "head": "Google Code Jam 2019",
+        "subhead": "Qualification Round",
+        "time": "2019 Apr",
+        "list": [
+            "Username : NSA94",
+            "Qualified to Round A"
+        ],
+        "link": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705",
+        "cert_link": 
+        [
+            {
+                "text" : "Qualification",
+                "link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/CJ19-Qualification.pdf"
+            }
+        ],
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "head": "Google Hash Code 2019",
+        "subhead": "Qualification Round",
+        "time": "2019 Feb",
+        "list": [
+            "Hub-Organizer for University of Kelaniya",
+            "Team Name : TeamOrigin",
+            "World Rank : 3148"
+        ],
+        "link": "https://codingcompetitions.withgoogle.com/hashcode/archive/2019",
+        "cert_link": [
+            
+            {
+                "text" : "Participation Certificate",
+                "link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/HC19-Particiapate.pdf"
+            },{
+                "text" : "Hub-Organizer Certificate",
+                "link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/HC19-HubOrganizer.pdf"
+            }
+        ],
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "head": "99XT Code Conquest",
+        "subhead": "6th Place",
+        "time": "2019 Jan",
+        "list": [
+            "Username : nsa94",
+            "Rank : 6th in Time | 3rd in Points"
+        ],
+        "link": "https://www.hackerrank.com/contests/99xt-code-conquest/leaderboard",
+        "cert_link": [{
+            "text" : "Scoreboard",
+            "link" : "https://www.hackerrank.com/contests/99xt-code-conquest/leaderboard"
+        }],
+        "tags": [
+            "python",
+            "java"
+        ]
+    },
+    {
+        "head": "IEEEXtreme 12.0",
+        "subhead": "24 Hour Coding Competition",
+        "time": "2018 Oct",
+        "list": [
+            "Team Name : TeamOrigin",
+            "World Rank : 1114",
+            "Country Rank : 88"
+        ],
+        "link": "https://ieeextreme.org/12-0-ranking/",
+        "cert_link": [{
+            "text" : "Participation Certificate",
+            "link" : "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/Xtreme2018.pdf"
+        }],
+        "tags": [
+            "python",
+            "java"
+        ]
+    },{"head": "HackaDev 2018",
+        "subhead": "National Youth Social Innovation Challenge ",
+        "time": "2018 Sep",
+        "list": [
+            "Team Name : TeamOrigin",
+            "Idea : [Sponsored] Avoid Sexual Harassment in Public Transportation",
+            "Selected for Western Province Round"
+        ],
+        "tags":["android","api","geolocation","gps","google-maps"]
+    },
+    {
+        "head": "Mobitel NB-IoT Hackathon",
+        "subhead": "Overnight Hackathon",
+        "time": "2018 Mar",
+        "list": [
+            "Team Name : ESsenSE",
+            "Idea : Smart Garbage Collecting System",
+            "Selected for top 25 ideas"
+        ],
+        "link": "https://www.facebook.com/mobitelinnovationcentre/photos/a.2476533875906021/2477809589111783/",
+        "tags": [
+            "banana-pi",
+            "firebase",
+            "google-maps",
+            "android"
+        ]
+    }
+]

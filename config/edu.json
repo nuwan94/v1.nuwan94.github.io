@@ -1,0 +1,97 @@
+[
+    {
+        "head": "University of Kelaniya, Sri Lanka.",
+        "subhead": "BSc. (Hons.) in Software Engineering",
+        "time": "2017 Mar- 2021 Mar",
+        "list": [
+            "IEEE Student Branch University of Kelaniya",
+            "Software Engineering Students' Association"
+        ],
+        "link": "https://science.kln.ac.lk",
+        "desc": "Bachelor of Science Honors in Software Engineering degree which is the only degree program in software engineering offered in the state university system in Sri Lanka. It offers core and optional course modules leveraging aspects of computer science, engineering and management. Through industrial training programs as well as student centered activities, students are facilitated with experiential learning opportunities to successfully meet growing trends and demands in the national economy.",
+        "results": [
+            {
+                "title" : "Cumulative GPA 3.75 out of 4.00",
+                "arr" :
+                [
+                    ["Programming Concepts [C]", "A+"],
+                    ["Data Structures & Algorithms [C]", "A"],
+                    ["Object Oriented Programming [Java]" , "A+"],
+                    ["Database Design & Development [Oracle]", "A"],
+                    ["Requirement Engineering", "A-"],
+                    ["Software Modelling", "A"],
+                    ["Software Constructions", "A"],
+                    ["Software Architecture & Design [Lagom,NiFi]", "A+"],
+                    ["Web Application Development [HTML,CSS,JS,PHP]", "A"],
+                    ["Interactive Application Development", "A+"],
+                    ["Computer Architecture & Operating Systems [MIPS]", "B+"],
+                    ["Mobile Application Development [Android]", "A"],
+                    ["Statistics", "B"]
+                 ]
+            }
+        ]
+    },{
+        "head": "Royal College, Colombo 07, Sri Lanka.",
+        "subhead": "Physical Science Stream",
+        "time": "2005 Feb - 2013 Aug",
+        "desc": "Royal College, established in 1835, is Sri Lanka's oldest college and is widely known as the premier educational institution in the island.",
+        "results": [
+            {
+                "title" : "GCE Advanced Level Examination 2015 (3rd Attempt)",
+                "arr" :
+                [
+                    ["Z Score","1.7702"],
+                    ["Island Rank","1477"],
+                    ["District Rank (Gampaha)" , "152"],
+                    ["Physics","A"],
+                    ["Chemistry","B"],
+                    ["Combined Mathematics","C"],
+                    ["General English (2014)","A"]
+                 ]
+            },{
+                "title" : "GCE Advanced Level Examination 2014 (2nd Attempt)",
+                "arr" :
+                [
+                    ["Z Score","1.3361"],
+                    ["Physics","B"],
+                    ["Chemistry","C"],
+                    ["Combined Mathematics","C"]
+                 ]
+            },{
+                "title" : "GCE Advanced Level Examination 2013 (1st Attempt)",
+                "arr" :
+                [
+                    ["Z Score","1.2567"],
+                    ["Physics","B"],
+                    ["Chemistry","C"],
+                    ["Combined Mathematics","C"],
+                    ["General English","A"],
+                    ["General Information Technology","A"],
+                    ["Common General Test","83%"]
+                 ]
+            },
+            {
+                "title" : "GCE Ordinary Level Examination 2010 (1st Attempt)",
+                "arr" :
+                [
+                    ["Mathematics", "A"],
+                    ["Science", "A"],
+                    ["English (Language)", "A"],
+                    ["Sinhala (Language)", "A"],
+                    ["Buddhism (Religion)", "A"],
+                    ["History", "A"],
+                    ["Business Studies & Accounting", "B"],
+                    ["Drama & Theatre", "B"],
+                    ["Design & Technology", "A"]
+                ]
+            }
+            
+            
+        ],
+        "list": [
+            "Societies : Buddhist Brotherhood, Environmental Conversation Society",
+            "Sports : Chess"
+        ],
+        "link": "https://royalcollege.lk"
+    }
+]

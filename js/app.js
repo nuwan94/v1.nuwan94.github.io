@@ -47,7 +47,7 @@ app.filter('langConvert', function () {
 				l = "devicon-csharp-plain";
 				break;
 			default:
-				l = 'devicon-'+ t + '-plain';
+				l = 'devicon-' + t + '-plain';
 		}
 		return l;
 	}
@@ -64,12 +64,43 @@ app.filter('utcToLocal', function () {
 
 app.controller('projectCtrl', function ($scope, $filter, $http) {
 
-	$scope.getProjects = function (url) {
+	$scope.getApps = function () {
 		$scope.isNotLoaded = true;
-		$http.get(url)
+		$http.get("config/apps.json")
 			.then(function (response) {
 				$scope.isNotLoaded = false;
 				$scope.projects = response.data;
+				$scope.projects.title = "Mobile Applications";
+			});
+	}
+
+	$scope.getWebs = function () {
+		$scope.isNotLoaded = true;
+		$http.get("config/web.json")
+			.then(function (response) {
+				$scope.isNotLoaded = false;
+				$scope.projects = response.data;
+				$scope.projects.title = "Web Applications";
+			});
+	}
+
+	$scope.getGames = function () {
+		$scope.isNotLoaded = true;
+		$http.get("config/games.json")
+			.then(function (response) {
+				$scope.isNotLoaded = false;
+				$scope.projects = response.data;
+				$scope.projects.title = "Games & Simulations";
+			});
+	}
+
+	$scope.getOpenSource = function () {
+		$scope.isNotLoaded = true;
+		$http.get("https://api.github.com/users/nuwan94/repos?page=1&per_page=100")
+			.then(function (response) {
+				$scope.isNotLoaded = false;
+				$scope.projects = response.data;
+				$scope.projects.title = "Open Source Projects";
 			});
 	}
 
@@ -78,39 +109,65 @@ app.controller('projectCtrl', function ($scope, $filter, $http) {
 
 app.controller('resumeCtrl', function ($scope, $filter, $http) {
 
-	$scope.getResume = function (url) {
+	$scope.showWork = function () {
 		$scope.isNotLoaded = true;
-		$http.get(url)
+		$http.get("config/work.json")
 			.then(function (response) {
 				$scope.isNotLoaded = false;
-				$scope.resume = response.data[0];
-				$scope.showWork();
+				$scope.resu = response.data;
+				$scope.resu.title = "Working Experience";
 			});
 	}
 
-	$scope.showWork = function () {
-		$scope.resu = $scope.resume.working;
-		$scope.resu.title = "Working Experience";
-	}
 
 	$scope.showEdu = function () {
-		$scope.resu = $scope.resume.education;
-		$scope.resu.title = "Educational Quaification";
+		$scope.isNotLoaded = true;
+		$http.get("config/edu.json")
+			.then(function (response) {
+				$scope.isNotLoaded = false;
+				$scope.resu = response.data;
+				$scope.resu.title = "Educational Quaification";
+			});
 	}
 
 	$scope.showComm = function () {
-		$scope.resu = $scope.resume.communities;
-		$scope.resu.title = "Communities & Societies";
+		$scope.isNotLoaded = true;
+		$http.get("config/comm.json")
+			.then(function (response) {
+				$scope.isNotLoaded = false;
+				$scope.resu = response.data;
+				$scope.resu.title = "Communities & Societies";
+			});
 	}
 
 	$scope.showCont = function () {
-		$scope.resu = $scope.resume.contest;
-		$scope.resu.title = "Contests & Hackathons";
+		$scope.isNotLoaded = true;
+		$http.get("config/cont.json")
+			.then(function (response) {
+				$scope.isNotLoaded = false;
+				$scope.resu = response.data;
+				$scope.resu.title = "Contests & Hackathons";
+			});
 	}
 
 	$scope.showSkill = function () {
-		$scope.resu = $scope.resume.skills;
-		$scope.resu.title = "SkillS";
+		$scope.isNotLoaded = true;
+		$http.get("config/skill.json")
+			.then(function (response) {
+				$scope.isNotLoaded = false;
+				$scope.resu = response.data;
+				$scope.resu.title = "Skills";
+			});
+	}
+
+	$scope.showTrain = function () {
+		$scope.isNotLoaded = true;
+		$http.get("config/train.json")
+			.then(function (response) {
+				$scope.isNotLoaded = false;
+				$scope.resu = response.data;
+				$scope.resu.title = "Trainings & Workshops";
+			});
 	}
 
 });
@@ -122,20 +179,20 @@ app.controller('statCtrl', function ($scope, $filter, $http) {
 
 	$scope.getStat = function () {
 
-		$http.get("https://api.github.com/users/nuwan94")
-			.then(function (response) {
-				if (response.data.public_repos) {
-					$scope.gh = response.data;
-				}
-				$scope.gitLoaded = true;
-			});
+			$http.get("https://api.github.com/users/nuwan94")
+				.then(function (response) {
+					if (response.data.public_repos) {
+						$scope.gh = response.data;
+					}
+					$scope.gitLoaded = true;
+				});
 
-		$http.get("https://api.stackexchange.com/2.2/users/3125964?order=desc&sort=reputation&site=stackoverflow").then(function (response) {
-			if (response.data.items[0].reputation) {
-				$scope.so = response.data.items[0];
-			}
-			$scope.soLoaded = true;
-		});
+			$http.get("https://api.stackexchange.com/2.2/users/3125964?order=desc&sort=reputation&site=stackoverflow").then(function (response) {
+				if (response.data.items[0].reputation) {
+					$scope.so = response.data.items[0];
+				}
+				$scope.soLoaded = true;
+			});
 
 	}
 

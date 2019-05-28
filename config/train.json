@@ -1,0 +1,76 @@
+[
+    {
+        "head": "IEEE Techno Meetup Series 2018",
+        "subhead": "IEEE Sri Lanka Section",
+        "time": "2018 Jan",
+        "list": [
+            "Blockchain Meetup at 99X Technologies"
+        ]
+    },{
+        "head": "DevFest 2018",
+        "subhead": "NSBM",
+        "time": "2018 Dec",
+        "list": [
+            "Path : AR",
+            "Applications of ARCore with Unity Game Engine",
+            "Practical session with Google CodeLab to practice the ARCore",
+            "Web AR technologies using AR.js"
+        ]
+    },
+    {
+        "head": "Technical Writing Workshop",
+        "subhead": "WSO2",
+        "time": "2018 Sep",
+        "list": [
+            "Grammar in Technical Writing",
+            "Art of Documentation",
+            "Writing Competitions"
+        ]
+    },
+    {
+        "head": "Ballerina Day - WSO2",
+        "subhead": "Galle Face Hotel",
+        "time": "2018 Aug",
+        "list": [
+            "Introduction sessions to Ballerina language and architecture.",
+            "Mini-Hackathon to implement what we learnt."
+        ]
+    },
+    {
+        "head": "Mozilla Global Sprint 2018",
+        "subhead": "WSO2 Telco - Trace Expert City",
+        "time": "2018 Oct",
+        "list": [
+            "Conducted by Mrs.Dilrukshi Gamage and Ruwan Ranaganth.",
+            "Contributed to several open source projects."
+        ]
+    },
+    {
+        "head": "GitHub Workshop",
+        "subhead": "University of Kelaniya",
+        "time": "2018 Apr",
+        "list": [
+            "Conducted by Mr.Isuru Abeygunawardana (GitHub Campus Expert).",
+            "Introduction to the GitHub workflow.",
+            "Guide to contribute for open-source projects."
+        ]
+    },
+    {
+        "head": "IEEE Techno Meetup Series 2017",
+        "subhead": "IEEE Sri Lanka Section",
+        "time": "2017 Oct - 2018 Jan",
+        "list": [
+            "Circuits & Systems Meetup at UCSC",
+            "Kotlin Meetup at Virtusa",
+            "AR & VR Meetup at WSO2"
+        ]
+    },
+    {
+        "head": "Outbound Training Camp",
+        "subhead": "Trincomalee Navy Camp",
+        "time": "2017 Dec",
+        "list": [
+            "Circuits & Systems Meetup at UCSC"
+        ]
+    }
+]

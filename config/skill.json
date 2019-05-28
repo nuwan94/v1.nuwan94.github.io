@@ -1,0 +1,252 @@
+[
+    {
+        "head": "Java Technologies",
+        "theme": "bg-danger",
+        "tech": [
+            {
+                "name": "JavaSE",
+                "val": "75"
+            },
+            {
+                "name": "Hibernate",
+                "val": "15"
+            },
+            {
+                "name": "Spring",
+                "val": "15"
+            },
+            {
+                "name": "Lagom",
+                "val": "10"
+            }
+        ]
+    },
+    {
+        "head": "Web Development",
+        "theme": "bg-primary",
+        "tech": [
+            {
+                "name": "HTML/HTML5",
+                "val": "80"
+            },
+            {
+                "name": "CSS/Sass",
+                "val": "80"
+            },
+            {
+                "name": "Bootstrap",
+                "val": "75"
+            },
+            {
+                "name": "Materialize",
+                "val": "75"
+            },
+            {
+                "name": "JavaScript/JSON",
+                "val": "70"
+            },
+            {
+                "name": "jQuery/Ajax",
+                "val": "70"
+            },
+            {
+                "name": "Typescript",
+                "val": "50"
+            },
+            {
+                "name": "Angular",
+                "val": "50"
+            },
+            {
+                "name": "AngularJS",
+                "val": "75"
+            },
+            {
+                "name": "Vue",
+                "val": "30"
+            },
+            {
+                "name": "React",
+                "val": "50"
+            },
+            {
+                "name": "Gatsby",
+                "val": "35"
+            },
+            {
+                "name": "Node.js",
+                "val": "50"
+            },
+            {
+                "name": "Express",
+                "val": "50"
+            },
+            {
+                "name": "REST API",
+                "val": "75"
+            },
+            {
+                "name": "PHP",
+                "val": "50"
+            },
+            {
+                "name": "Laravel",
+                "val": "30"
+            }
+        ]
+    },
+    {
+        "head": "Mobile Development",
+        "theme": "bg-success",
+        "tech": [
+            {
+                "name": "Android",
+                "val": "50"
+            },
+            {
+                "name": "Flutter",
+                "val": "20"
+            },
+            {
+                "name": "React Native",
+                "val": "15"
+            }
+        ]
+    },
+    {
+        "head": "Database Management",
+        "theme": "bg-danger",
+        "tech": [
+            {
+                "name": "MySQL",
+                "val": "75"
+            },
+            {
+                "name": "SQLite",
+                "val": "60"
+            },
+            {
+                "name": "MongoDB",
+                "val": "50"
+            },
+            {
+                "name": "GraphQL",
+                "val": "40"
+            }
+        ]
+    },
+    {
+        "head": "Version Controlling",
+        "theme": "bg-info",
+        "tech": [
+            {
+                "name": "Git",
+                "val": "70"
+            },
+            {
+                "name": "GitHub",
+                "val": "70"
+            }
+        ]
+    },
+    {
+        "head": "Game Development",
+        "theme": "bg-dark",
+        "tech": [
+            {
+                "name": "Unity Game Engine",
+                "val": "50"
+            },
+            {
+                "name": "Blender",
+                "val": "40"
+            }
+        ]
+    },
+    {
+        "head": "Cloud Platforms",
+        "theme": "bg-secondary",
+        "tech": [
+            {
+                "name": "Firebase",
+                "val": "50"
+            },
+            {
+                "name": "Netlify",
+                "val": "40"
+            },
+            {
+                "name": "Heroku",
+                "val": "20"
+            },
+            {
+                "name": "Azure",
+                "val": "10"
+            },
+            {
+                "name": "AWS",
+                "val": "10"
+            },
+            {
+                "name": "Google Cloud Platform",
+                "val": "10"
+            }
+        ]
+    },
+    {
+        "head": "Design and Utility",
+        "theme": "bg-success",
+        "tech": [
+            {
+                "name": "Adobe Photoshop",
+                "val": "75"
+            },
+            {
+                "name": "Adobe Illustrator",
+                "val": "65"
+            },
+            {
+                "name": "Microsoft Word",
+                "val": "90"
+            },
+            {
+                "name": "Microsoft PowerPoint",
+                "val": "85"
+            },
+            {
+                "name": "Microsoft Excel",
+                "val": "75"
+            },
+            {
+                "name": "Draw.io",
+                "val": "70"
+            }
+        ]
+    },
+    {
+        "head": "IDEs",
+        "theme": "bg-info",
+        "tech": [
+            {
+                "name": "IntelliJ IDEA",
+                "val": "50"
+            },
+            {
+                "name": "VS Code",
+                "val": "75"
+            },
+            {
+                "name": "Android Studio",
+                "val": "50"
+            },
+            {
+                "name": "NetBeans",
+                "val": "40"
+            },
+            {
+                "name": "Visual Studio 2017",
+                "val": "40"
+            }
+        ]
+    }
+]

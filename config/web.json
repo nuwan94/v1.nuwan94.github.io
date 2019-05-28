@@ -6,7 +6,7 @@
     "link" : "https://www.uokse.xyz/breakingcodes"
 },{
     "name" : "Gatsby Blog",
-    "description" : "Blog site using Gatsby JavaScript framework and lumen starter template.",
+    "description" : "Blog site using Gatsby JavaScript framework and lumen starter template. Continues integration/deployment implemented using TravisCI.",
     "language": "javascript",
     "created_at" : "2019/03/01",
     "link" : "https://nuwan.dev/blog",
