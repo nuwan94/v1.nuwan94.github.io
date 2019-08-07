@@ -1,8 +1,22 @@
 [
     {
+        "head": "Global Azure Bootcamp Colombo",
+        "subhead": "Microsoft Sri Lanka",
+        "time": "2019 June",
+        "list": [
+            "Track : Dev",
+            "Infuse some AI to Make your apps more human with Cognitive Services",
+            "Secure your ReactJS frontend and NodeJS backend with Azure AD B2C",
+            "Good Bye, Storing Credentials In Your Code. Welcome, Azure Managed Identities",
+            "Leverage your application architecture with Azure Services",
+            "Application Modernization : Migrating to an API based-Architecture with Azure API Management",
+            "Azure Functions for Python Developers",
+            "Effective Development with Azure Dev Spaces"
+        ]
+    },{
         "head": "IEEE Techno Meetup Series 2018",
         "subhead": "IEEE Sri Lanka Section",
-        "time": "2018 Jan",
+        "time": "2019 Jan",
         "list": [
             "Blockchain Meetup at 99X Technologies"
         ]
@@ -15,6 +29,15 @@
             "Applications of ARCore with Unity Game Engine",
             "Practical session with Google CodeLab to practice the ARCore",
             "Web AR technologies using AR.js"
+        ]
+    },{
+        "head": "Software Freedom Day 2018",
+        "subhead": "SLITT",
+        "time": "2018 Sep",
+        "list": [
+            "FOSS LK Relaunch",
+            "FOSS related development projects",
+            "Panel Discussions"
         ]
     },
     {
@@ -41,7 +64,7 @@
         "subhead": "WSO2 Telco - Trace Expert City",
         "time": "2018 Oct",
         "list": [
-            "Conducted by Mrs.Dilrukshi Gamage and Ruwan Ranaganth.",
+            "Conducted by Mrs.Dilrukshi Gamage and Mr.Ruwan Ranaganth.",
             "Contributed to several open source projects."
         ]
     },
@@ -70,7 +93,10 @@
         "subhead": "Trincomalee Navy Camp",
         "time": "2017 Dec",
         "list": [
-            "Circuits & Systems Meetup at UCSC"
+            "Team Building Games",
+            "Leadership Training",
+            "Survival Practices",
+            "Visit to Navel Museum"
         ]
     }
 ]

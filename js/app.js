@@ -1,4 +1,5 @@
-var app = angular.module("myCV", ["ngRoute"]);
+
+var app = angular.module("myCV", ["ngRoute", "ui.bootstrap"]);
 
 app.config(function ($routeProvider, $locationProvider) {
 	$routeProvider
@@ -96,7 +97,7 @@ app.controller('projectCtrl', function ($scope, $filter, $http) {
 
 	$scope.getOpenSource = function () {
 		$scope.isNotLoaded = true;
-		$http.get("https://api.github.com/users/nuwan94/repos?page=1&per_page=100")
+		$http.get("https://api.github.com/users/nuwan94/repos?page=1&per_page=100&client_id=825bdda0c89053fcd4ed&client_secret=fd737cee6549af66d686b4ab682e0bbca6862035")
 			.then(function (response) {
 				$scope.isNotLoaded = false;
 				$scope.projects = response.data;
@@ -174,12 +175,12 @@ app.controller('resumeCtrl', function ($scope, $filter, $http) {
 
 
 app.controller('statCtrl', function ($scope, $filter, $http) {
-	$scope.soLoaded = false;
-	$scope.gitLoaded = false;
+	$scope.soLoaded = true;
+	$scope.gitLoaded = true;
 
 	$scope.getStat = function () {
 
-			$http.get("https://api.github.com/users/nuwan94")
+			$http.get("https://api.github.com/users/nuwan94?client_id=825bdda0c89053fcd4ed&client_secret=fd737cee6549af66d686b4ab682e0bbca6862035")
 				.then(function (response) {
 					if (response.data.public_repos) {
 						$scope.gh = response.data;
@@ -187,12 +188,12 @@ app.controller('statCtrl', function ($scope, $filter, $http) {
 					$scope.gitLoaded = true;
 				});
 
-			$http.get("https://api.stackexchange.com/2.2/users/3125964?order=desc&sort=reputation&site=stackoverflow").then(function (response) {
-				if (response.data.items[0].reputation) {
-					$scope.so = response.data.items[0];
-				}
-				$scope.soLoaded = true;
-			});
+			// $http.get("https://api.stackexchange.com/2.2/users/3125964?order=desc&sort=reputation&site=stackoverflow").then(function (response) {
+			// 	if (response.data.items[0].reputation) {
+			// 		$scope.so = response.data.items[0];
+			// 	}
+			// 	$scope.soLoaded = true;
+			// });
 
 	}
 
