@@ -71,6 +71,11 @@ img.profile {
         width: 100%;
         background: #0f152d;
         margin: 0.5em;
+        border-radius: 10px;
+    }
+
+    .nav-item:hover {
+        box-shadow: 0 0 10px #24449b
     }
 }
 
@@ -136,6 +141,11 @@ img.profile {
     background: #111;
 }
 
+.social-links .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
 .social-links .fa-behance {
     background: #1769ff;
 }
@@ -163,6 +173,20 @@ img.profile {
 .social-links .fa-dev {
     background: #232222;
 }
+
+.social-links .fa-bullseye {
+    background: #f5cd0e;
+}
+
+.social-links .fa-aws {
+    background: #ff9900;
+}
+
+.social-links .fa-box-open, .social-links .fa-box-open:hover, .social-links .fa-box-open:focus{
+    color: #9acc14;
+    background: #000;
+}
+
 
 .project,
 .resume-item {
@@ -195,8 +219,16 @@ img.profile {
     text-align: left
 }
 
+.about .social-links a {
+    margin: .5em;
+}
+
 .about .social-links a i {
-    font-size: 1.3em;
+    font-size: 1.5em;
+}
+
+.about .social-links a:hover {
+    box-shadow: 5px 5px 10px #111;
 }
 
 .stat {
