@@ -21,12 +21,13 @@
             "sql-injection",
             "cryptography",
             "steganography",
-            "owasp"
+            "owasp",
+            "seo"
         ]
     },
     {
         "head": "Google Kick Start 2019",
-        "subhead": "Round B",
+        "subhead": "Coding Competition",
         "time": "2019 Apr",
         "list": [
             "Username : NSA94",
@@ -47,7 +48,7 @@
     },
     {
         "head": "Google Code Jam 2019",
-        "subhead": "Qualification Round",
+        "subhead": "Coding Competition",
         "time": "2019 Apr",
         "list": [
             "Username : NSA94",
@@ -56,7 +57,7 @@
         "link": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705",
         "cert_link": [
             {
-                "text": "Qualification",
+                "text": "Qualification Round",
                 "link": "https://docs.google.com/gview?url=https://nuwan94.github.io/certificates/CJ19-Qualification.pdf"
             }
         ],
@@ -94,7 +95,7 @@
     },
     {
         "head": "99XT Code Conquest",
-        "subhead": "6th Place",
+        "subhead": "Hackerrank Competition",
         "time": "2019 Jan",
         "list": [
             "Username : nsa94",
@@ -139,7 +140,7 @@
     },
     {
         "head": "HackaDev 2018",
-        "subhead": "National Youth Social Innovation Challenge ",
+        "subhead": "National Youth Social Innovation Challenge",
         "time": "2018 Sep",
         "list": [
             "Team Name : TeamOrigin",

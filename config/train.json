@@ -1,7 +1,7 @@
 [
     {
         "head": "Global Azure Bootcamp Colombo",
-        "subhead": "Microsoft Sri Lanka",
+        "subhead": "- Microsoft Sri Lanka",
         "time": "2019 June",
         "list": [
             "Track : Dev",
@@ -15,14 +15,14 @@
         ]
     },{
         "head": "IEEE Techno Meetup Series 2018",
-        "subhead": "IEEE Sri Lanka Section",
+        "subhead": "- IEEE Sri Lanka Section",
         "time": "2019 Jan",
         "list": [
             "Blockchain Meetup at 99X Technologies"
         ]
     },{
         "head": "DevFest 2018",
-        "subhead": "NSBM",
+        "subhead": "- GDG Sri Lanka",
         "time": "2018 Dec",
         "list": [
             "Path : AR",
@@ -32,7 +32,7 @@
         ]
     },{
         "head": "Software Freedom Day 2018",
-        "subhead": "SLITT",
+        "subhead": "- FOSS Sri Lanka",
         "time": "2018 Sep",
         "list": [
             "FOSS LK Relaunch",
@@ -42,7 +42,7 @@
     },
     {
         "head": "Technical Writing Workshop",
-        "subhead": "WSO2",
+        "subhead": "- WSO2 Sri Lanka",
         "time": "2018 Sep",
         "list": [
             "Grammar in Technical Writing",
@@ -51,8 +51,8 @@
         ]
     },
     {
-        "head": "Ballerina Day - WSO2",
-        "subhead": "Galle Face Hotel",
+        "head": "Ballerina Day",
+        "subhead": "- WSO2 Sri Lanka",
         "time": "2018 Aug",
         "list": [
             "Introduction sessions to Ballerina language and architecture.",
@@ -61,7 +61,7 @@
     },
     {
         "head": "Mozilla Global Sprint 2018",
-        "subhead": "WSO2 Telco - Trace Expert City",
+        "subhead": "- Mozilla Sri Lanka",
         "time": "2018 Oct",
         "list": [
             "Conducted by Mrs.Dilrukshi Gamage and Mr.Ruwan Ranaganth.",
@@ -70,7 +70,7 @@
     },
     {
         "head": "GitHub Workshop",
-        "subhead": "University of Kelaniya",
+        "subhead": "- SESA University of Kelaniya",
         "time": "2018 Apr",
         "list": [
             "Conducted by Mr.Isuru Abeygunawardana (GitHub Campus Expert).",
@@ -80,7 +80,7 @@
     },
     {
         "head": "IEEE Techno Meetup Series 2017",
-        "subhead": "IEEE Sri Lanka Section",
+        "subhead": "- IEEE Sri Lanka Section",
         "time": "2017 Oct - 2018 Jan",
         "list": [
             "Circuits & Systems Meetup at UCSC",
@@ -90,7 +90,7 @@
     },
     {
         "head": "Outbound Training Camp",
-        "subhead": "Trincomalee Navy Camp",
+        "subhead": "- Trincomalee Navy Camp",
         "time": "2017 Dec",
         "list": [
             "Team Building Games",

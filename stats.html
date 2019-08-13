@@ -3,30 +3,31 @@
     <div class="col-md-8 mx-auto">
 
         <div class="row mt-3">
-            <div class="col-md-12 m-5" ng-if="!(gitLoaded && soLoaded)">
+            <div class="col-md-12 m-5" ng-if="!(gitLoaded)">
                 <h5 style="text-align: center"><i class="fa fa-2x fa-spinner fa-pulse"></i></h5>
             </div>
         </div>
 
 
-        <div class="row mt-3 stat social-links" ng-if="gitLoaded && soLoaded">
+        <div class="row mt-3 stat social-links" ng-if="gitLoaded">
 
-
-            <!-- <div class="col-md-6 text-center">
+            <div class="col-md-6 text-center">
                 <img class="img-fluid" src="img/octocat.png" />
-            </div> -->
+            </div>
 
-            <div class="col-md-12">
-                <script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-                <div class="github-card" data-github="nuwan94" data-width="400" data-height="152" data-theme="default">
-                </div>
-                <!-- <a href='https://github.com/nuwan94' target="_blank">@nuwan94</a><br>
+            <div class="col-md-6">
+                <a href='https://github.com/nuwan94' target="_blank">{GitHub Journey}</a><br>
+                Joined on <span class="text-warning">{{gh.created_at | date}}</span><br>
                 <span class="text-warning">{{gh.public_repos}}</span> repos & <span
                     class="text-warning">{{gh.public_gists}}</span> gists<br>
-                Joined on <span class="text-warning">{{gh.created_at | date}}</span><br>
-                Last seen on <span class="text-warning">{{gh.updated_at | date}}</span><br>
-                <span class="text-warning">{{gh.followers}}</span> followers & <span
-                    class="text-warning">{{gh.following}}</span> following<br> -->
+                <span class="text-warning">{{gh.followers}}</span> followers <br>
+                <span class="text-warning">{{gh.following}}</span> following<br>
+                Last seen on <span class="text-warning">{{gh.updated_at | date}}</span><br><br>
+
+                <button class="btn-small {{ (gh.hireable) ? 'btn-success' : 'btn-danger'}}">
+                    <i class="{{ (gh.hireable) ? 'fa fa-check-circle' : 'fa fa-times-circle'}}"></i> Available for Hire
+                </button>
+                
             </div>
 
 
@@ -47,19 +48,22 @@
                     {{so.badge_counts.bronze}} Bronze</span>
                 <span class="badge badge-primary">{{so.badge_counts.silver}} Silver</span>
                 <span class=" badge badge-primary">{{stackoverflow.badge_counts.gold}} Gold</span> -->
-                <a href="https://stackexchange.com/users/3760956"><img style="border-radius: 5px;"
-                        src="https://stackexchange.com/users/flair/3760956.png?theme=clean" width="208" height="58"
+
+                <a href="https://stackexchange.com/users/3760956">{Established in S.O.}
+                    <img style="border-radius: 5px;" src="https://stackexchange.com/users/flair/3760956.png?theme=clean"
+                        width="208" height="58"
                         alt="profile for Nuwan94 on Stack Exchange, a network of free, community-driven Q&amp;A sites"
                         title="profile for Nuwan94 on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
             </div>
 
             <div class="col-md-6">
-                <a href="https://www.hackthebox.eu/profile/159870" target="_blank">
+                <a href="https://www.hackthebox.eu/profile/159870" target="_blank">{Noob Hacker}
                     <img src="https://www.hackthebox.eu/badge/image/159870" alt="Hack The Box">
                 </a>
             </div>
 
             <div class="col-md-6">
+                
 
             </div>
 

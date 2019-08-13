@@ -5,7 +5,7 @@
         "time": "2018 Nov - Present",
         "list": [
             "IEEE SLSYWC 2019 - Design Team",
-            "IEEE Innovation Nation 2019 - Design Team",
+            "IEEE Innovation Nation Sri Lanka 2019 - Design Team",
             "IEEE Techno Meetups 2018 - Design Team"
         ],
         "link" : "https://technomeetup.ieee.lk/team/"
@@ -14,15 +14,20 @@
         "head": "Google Crowdsource Sri Lanka",
         "subhead": "Contributor",
         "time": "2017 Oct - Present",
-        "link" : "https://crowdsource.google.com"
+        "link" : "https://crowdsource.google.com",
+        "list": [
+            "Level 10 Contributor",
+            "Member of the Sinhala Translation Community"
+        ]
     },
     {
         "head": "IEEE Student Branch University of Kelaniya",
-        "subhead": "Former Editor(2018) | Member",
-        "time": "2017 Mar - Present",
+        "subhead": "Former Editor | Member",
+        "time": "2018 Mar - 2019 Mar | 2017 Mar - Present",
         "list": [
-            "Sessions conducted by the the student branch",
-            "IEEE Sri Lanka Section activities"
+            "Participating sessions conducted by the the student branch",
+            "Contributing to the IEEE Sri Lanka Section activities",
+            "Participating and organizing IEEE Xtreme Competition in the University"
         ],
         "link" : "https://www.facebook.com/ieeekln/photos/a.551077748414330/732651653590271"
     },
@@ -31,8 +36,9 @@
         "subhead": "Member",
         "time": "2017 Mar - Present",
         "list": [
-            "RealHack 2018 Organizing Committee",
-            "Breaking Codes 1.0"
+            "Coordinator for Vidya 2017 Science Exhibiton",
+            "Contributing to RealHack 2018 as a Organizing Committee Member",
+            "Organizing the Breaking Codes 1.0 for Junior Batch"
         ]
     }
 ]

@@ -45,8 +45,7 @@
                     ["District Rank (Gampaha)" , "152"],
                     ["Physics","A"],
                     ["Chemistry","B"],
-                    ["Combined Mathematics","C"],
-                    ["General English (2014)","A"]
+                    ["Combined Mathematics","C"]
                  ]
             },{
                 "title" : "GCE Advanced Level Examination 2014 (2nd Attempt)",
@@ -55,7 +54,9 @@
                     ["Z Score","1.3361"],
                     ["Physics","B"],
                     ["Chemistry","C"],
-                    ["Combined Mathematics","C"]
+                    ["Combined Mathematics","C"],
+                    ["General English","A"]
+
                  ]
             },{
                 "title" : "GCE Advanced Level Examination 2013 (1st Attempt)",

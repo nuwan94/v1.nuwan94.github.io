@@ -69,9 +69,9 @@ img.profile {
     .nav-item {
         display: block;
         width: 100%;
-        background: #0f152d;
+        border: 2px solid #24449b;
         margin: 0.5em;
-        border-radius: 10px;
+        border-radius: .2rem;
     }
 
     .nav-item:hover {
@@ -208,6 +208,62 @@ img.profile {
 .project i[class^="devicons"] {
     font-size: 2.5em;
 }
+.project .devicon-android-plain{
+    color: #a4c639;
+}
+
+.project .devicon-javascript-plain{
+    color: #f7df1e;
+}
+
+.project .devicon-typescript-plain{
+    color: #0166b8;
+}
+
+.project .devicon-bootstrap-plain{
+    color: #563d7c;
+}
+
+.project .devicon-angularjs-plain{
+    color: #b52e31;
+}
+
+.project .devicon-html5-plain{
+    color: #e34f26;
+}
+
+.project .devicon-css3-plain{
+    color: #264de4;
+}
+
+.project .devicon-php-plain{
+    color: #8892be;
+}
+
+.project .devicon-python-plain{
+    color: #4584b6;
+}
+
+.project .devicon-java-plain{
+    color: #f8981d;
+}
+
+.project .devicon-csharp-plain{
+    color: #68217a;
+}
+
+.project .devicon-cplusplus-plain{
+    color: #00599c;
+}
+
+
+.project .devicons-unity_small{
+    color: #00cccc;
+}
+.project .devicons-terminal{
+    color: #0078d7;
+}
+
 
 .about .table td {
     border: none;

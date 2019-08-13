@@ -177,7 +177,7 @@
             },
             {
                 "name": "Heroku",
-                "val": "20"
+                "val": "25"
             },
             {
                 "name": "Azure",
@@ -185,11 +185,11 @@
             },
             {
                 "name": "AWS",
-                "val": "10"
+                "val": "15"
             },
             {
                 "name": "Google Cloud Platform",
-                "val": "10"
+                "val": "20"
             }
         ]
     },
@@ -207,7 +207,7 @@
             },
             {
                 "name": "Microsoft Word",
-                "val": "90"
+                "val": "95"
             },
             {
                 "name": "Microsoft PowerPoint",
@@ -233,7 +233,7 @@
             },
             {
                 "name": "VS Code",
-                "val": "75"
+                "val": "80"
             },
             {
                 "name": "Android Studio",
