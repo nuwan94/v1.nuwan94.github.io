@@ -97,7 +97,11 @@ app.controller('projectCtrl', function ($scope, $filter, $http) {
 
 	$scope.getOpenSource = function () {
 		$scope.isNotLoaded = true;
-		$http.get("https://api.github.com/users/nuwan94/repos?page=1&per_page=100&client_id=825bdda0c89053fcd4ed&client_secret=fd737cee6549af66d686b4ab682e0bbca6862035")
+		$http.get("https://api.github.com/users/nuwan94/repos?page=1&per_page=100", {
+			headers : {
+				'Authorization': 'token 8839829dc369397acccc5c4778bc8389f72fd71f'
+			}
+		})
 			.then(function (response) {
 				$scope.isNotLoaded = false;
 				$scope.projects = response.data;
