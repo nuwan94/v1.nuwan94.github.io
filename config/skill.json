@@ -59,31 +59,31 @@
             },
             {
                 "name": "AngularJS",
-                "val": "75"
+                "val": "50"
             },
             {
                 "name": "Vue",
-                "val": "30"
+                "val": "50"
             },
             {
                 "name": "React",
-                "val": "50"
+                "val": "75"
             },
             {
                 "name": "Gatsby",
-                "val": "35"
+                "val": "40"
             },
             {
                 "name": "Node.js",
-                "val": "50"
+                "val": "60"
             },
             {
                 "name": "Express",
-                "val": "50"
+                "val": "60"
             },
             {
                 "name": "REST API",
-                "val": "75"
+                "val": "80"
             },
             {
                 "name": "PHP",

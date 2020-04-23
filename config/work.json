@@ -1,5 +1,23 @@
 [
     {
+        "head": "Zone24x7 Inc.",
+        "subhead": "Trainee Associate Software Engineer",
+        "time": "2019 Aug - 2020 JFeb",
+        "link": "https://zone24x7.com",
+        "desc": "Joined Zone24x7 as a Trainee Associate Software Engineer for completing my industrial training course module. Worked in 04 different projects during the 6 months.",
+        "tags": [
+            "Java",
+            "Kotlin",
+            "Spring Boot",
+            "Angular",
+            "Apache Camel",
+            "PostgreSQL",
+            "React",
+            "Ant Design",
+            "Typescript",
+            "JavaScript"
+        ]
+    },{
         "head": "Fiverr International Inc.",
         "subhead": "Freelancer",
         "time": "2013 Sep - 2018 Jan",
